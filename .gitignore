@@ -38,6 +38,8 @@ data/*.log.*
 # 端到端测试库与日志
 data/e2e_test.db
 data/e2e_server.log
+# 测试用例截图
+Test_sample/
 
 # ---- OCR / Paddle 运行时缓存 ----
 .paddlex/
@@ -68,6 +70,6 @@ htmlcov/
 .mypy_cache/
 .ruff_cache/
 
-./批注.md
-./详细设计说明书.md
-./项目计划书.md
+/批注.md
+/详细设计说明书.md
+/项目计划书.md
