@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Phigros OJ{% endblock %}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/">Phigros OJ</a>
+  <nav>
+    <a href="/">赛事列表</a>
+    {% if user %}
+      {% if user.is_admin %}<a href="/contests/new">创建赛事</a>{% endif %}
+      {% if user.is_admin %}<a href="/review">审核平台</a>{% endif %}
+      <span class="who">{{ user.display_name }}</span>
+      <form method="post" action="/logout" class="inline">
+        <button type="submit" class="linklike">退出</button>
+      </form>
+    {% else %}
+      <a href="/login">登录</a>
+      <a href="/register">注册</a>
+    {% endif %}
+  </nav>
+</header>
+<main>
+  {% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+  {% if message %}<div class="alert alert-ok">{{ message }}</div>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+<footer style="color:var(--muted);font-size:12px;text-align:center;padding:20px 16px 32px;">
+  Phigros OJ
+</footer>
+</body>
+</html>

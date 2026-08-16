@@ -1,0 +1,5123 @@
+{
+  "generated_at": "2026-08-15 23:22:43",
+  "source": "https://phigros.fandom.com/wiki/Songs",
+  "note": "每首歌的 jackets 数组列出已调查到的曲绘版本（current=信息框当前曲绘，new/old/afd/locked/vN=其他版本）。请直接编辑本文件：删除不要的条目、修改 url，或将 selected 改为 false；singleSong_web_scrapy.py 按此文件下载。",
+  "songs": [
+    {
+      "index": 0,
+      "display": "星拂云锦 feat. koi",
+      "title": "星拂云锦_feat._koi",
+      "jackets": [
+        {
+          "source_file": "File:星拂云锦 feat. koi jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d7/%E6%98%9F%E6%8B%82%E4%BA%91%E9%94%A6_feat._koi_jacket.png/revision/latest?cb=20260730163519",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "display": "Der Schneid",
+      "title": "Der_Schneid",
+      "jackets": [
+        {
+          "source_file": "File:Der Schneid jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f4/Der_Schneid_jacket.png/revision/latest?cb=20260704053639",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "display": "夢の降る日に",
+      "title": "夢の降る日に",
+      "jackets": [
+        {
+          "source_file": "File:夢の降る日に jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d8/%E5%A4%A2%E3%81%AE%E9%99%8D%E3%82%8B%E6%97%A5%E3%81%AB_jacket.png/revision/latest?cb=20260704053653",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "display": "Gungnir Fracture",
+      "title": "Gungnir_Fracture",
+      "jackets": [
+        {
+          "source_file": "File:Gungnir Fracture jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ea/Gungnir_Fracture_jacket.png/revision/latest?cb=20260704053624",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "display": "70 Minutes Fighters",
+      "title": "70_Minutes_Fighters",
+      "jackets": [
+        {
+          "source_file": "File:70 Minutes Fighters jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/78/70_Minutes_Fighters_jacket.png/revision/latest?cb=20260624180700",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "display": "Cleyera",
+      "title": "Cleyera",
+      "jackets": [
+        {
+          "source_file": "File:Cleyera jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b5/Cleyera_jacket.png/revision/latest?cb=20260624180712",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "display": "亂★舞",
+      "title": "亂★舞",
+      "jackets": [
+        {
+          "source_file": "File:亂★舞 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/78/%E4%BA%82%E2%98%85%E8%88%9E_jacket.png/revision/latest?cb=20260604100117",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "display": "Snow Dance",
+      "title": "Snow_Dance",
+      "jackets": [
+        {
+          "source_file": "File:Snow Dance jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3a/Snow_Dance_jacket.png/revision/latest?cb=20260604100059",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "display": "下一秒",
+      "title": "下一秒",
+      "jackets": [
+        {
+          "source_file": "File:下一秒 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c5/%E4%B8%8B%E4%B8%80%E7%A7%92_jacket.png/revision/latest?cb=20260517113050",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "display": "After ZABANIYA (MUG Edit)",
+      "title": "After_ZABANIYA_(MUG_Edit)",
+      "jackets": [
+        {
+          "source_file": "File:After ZABANIYA (MUG Edit) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/04/After_ZABANIYA_%28MUG_Edit%29_jacket.png/revision/latest?cb=20260517113113",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "display": "Verrückt",
+      "title": "Verrückt",
+      "jackets": [
+        {
+          "source_file": "File:Verrückt jacket.png.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c7/Verr%C3%BCckt_jacket.png.webp/revision/latest?cb=20260309213634",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "display": "Xenophobia",
+      "title": "Xenophobia",
+      "jackets": [
+        {
+          "source_file": "File:Xenophobia jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/61/Xenophobia_jacket.png/revision/latest?cb=20260307150736",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "display": "ABYSS MOTION 192.333",
+      "title": "ABYSS_MOTION_192.333",
+      "jackets": [
+        {
+          "source_file": "File:AbyssMotion192333 Jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/de/AbyssMotion192333_Jacket.png/revision/latest?cb=20260323135923",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "display": "彼方へ、名もなき海辺より",
+      "title": "彼方へ、名もなき海辺より",
+      "jackets": [
+        {
+          "source_file": "File:Shore jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7b/Shore_jacket.png/revision/latest?cb=20260323140141",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "display": "Locomotive",
+      "title": "Locomotive",
+      "jackets": [
+        {
+          "source_file": "File:Locomotive jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/95/Locomotive_jacket.png/revision/latest?cb=20251226015744",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "display": "最高傑作",
+      "title": "最高傑作",
+      "jackets": [
+        {
+          "source_file": "File:最高傑作 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/00/%E6%9C%80%E9%AB%98%E5%82%91%E4%BD%9C_jacket.png/revision/latest?cb=20251226015823",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "display": "BANGING STRIKE",
+      "title": "BANGING_STRIKE",
+      "jackets": [
+        {
+          "source_file": "File:BANGING STRIKE jacket old.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3c/BANGING_STRIKE_jacket_old.png/revision/latest?cb=20251124104305",
+          "label": "old",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:BANGING STRIKE jacket new.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/85/BANGING_STRIKE_jacket_new.png/revision/latest?cb=20251124111208",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "display": "000 -Ain Soph Aur-",
+      "title": "000_-Ain_Soph_Aur-",
+      "jackets": [
+        {
+          "source_file": "File:000 -Ain Soph Aur- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b7/000_-Ain_Soph_Aur-_jacket.png/revision/latest?cb=20251031120524",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "display": "So laggy! (feat. Uzumaki)",
+      "title": "So_laggy!_(feat._Uzumaki)",
+      "jackets": [
+        {
+          "source_file": "File:So laggy! (feat. Uzumaki) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5d/So_laggy%21_%28feat._Uzumaki%29_jacket.png/revision/latest?cb=20251031120544",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "display": "Retribution ~ Cycle of Redemption ~",
+      "title": "Retribution_~_Cycle_of_Redemption_~",
+      "jackets": [
+        {
+          "source_file": "File:Retribution ~ Cycle of Redemption ~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/4a/Retribution_~_Cycle_of_Redemption_~_jacket.png/revision/latest?cb=20240402184652",
+          "label": "current",
+          "width": 1280,
+          "height": 720,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "display": "雪降り ~雪が降っている~",
+      "title": "雪降り_~雪が降っている~",
+      "jackets": [
+        {
+          "source_file": "File:雪降り ~雪が降っている~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/93/%E9%9B%AA%E9%99%8D%E3%82%8A_~%E9%9B%AA%E3%81%8C%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B~_jacket.png/revision/latest?cb=20250905134213",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "display": "Helios",
+      "title": "Helios",
+      "jackets": [
+        {
+          "source_file": "File:Helios jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/eb/Helios_jacket.png/revision/latest?cb=20250719183245",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "display": "Frozen Heart",
+      "title": "Frozen_Heart",
+      "jackets": [
+        {
+          "source_file": "File:Frozen Heart jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/89/Frozen_Heart_jacket.png/revision/latest?cb=20250721084529",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "display": "Alice in a xxxxxxxx",
+      "title": "Alice_in_a_xxxxxxxx",
+      "jackets": [
+        {
+          "source_file": "File:Alice in a xxxxxxxx jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/6c/Alice_in_a_xxxxxxxx_jacket.png/revision/latest?cb=20250518044520",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "display": "宇宙残骸少女 (Cosmic Dusty Girl)",
+      "title": "宇宙残骸少女_(Cosmic_Dusty_Girl)",
+      "jackets": [
+        {
+          "source_file": "File:宇宙残骸少女 (Cosmic Dusty Girl) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/22/%E5%AE%87%E5%AE%99%E6%AE%8B%E9%AA%B8%E5%B0%91%E5%A5%B3_%28Cosmic_Dusty_Girl%29_jacket.png/revision/latest?cb=20250228104850",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "display": "Swing Skip Drop",
+      "title": "Swing_Skip_Drop",
+      "jackets": [
+        {
+          "source_file": "File:Swing Skip Drop jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5d/Swing_Skip_Drop_jacket.png/revision/latest?cb=20250228104901",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "display": "ニライカナイ (NiraicA_nai Mix)",
+      "title": "ニライカナイ_(NiraicA_nai_Mix)",
+      "jackets": [
+        {
+          "source_file": "File:ニライカナイ (NiraicA nai Mix) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/14/%E3%83%8B%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%8A%E3%82%A4_%28NiraicA_nai_Mix%29_jacket.png/revision/latest?cb=20250215124427",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "display": "インマイマインド",
+      "title": "インマイマインド",
+      "jackets": [
+        {
+          "source_file": "File:インマイマインド jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f8/%E3%82%A4%E3%83%B3%E3%83%9E%E3%82%A4%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89_jacket.png/revision/latest?cb=20250215124358",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "display": "贝多芬祝福 (Beethoven Blessing)",
+      "title": "贝多芬祝福_(Beethoven_Blessing)",
+      "jackets": [
+        {
+          "source_file": "File:贝多芬祝福 (Beethoven Blessing) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a9/%E8%B4%9D%E5%A4%9A%E8%8A%AC%E7%A5%9D%E7%A6%8F_%28Beethoven_Blessing%29_jacket.png/revision/latest?cb=20250215124233",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "display": "蝎虎天体 -Lacertid-",
+      "title": "蝎虎天体_-Lacertid-",
+      "jackets": [
+        {
+          "source_file": "File:蝎虎天体 -Lacertid- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/93/%E8%9D%8E%E8%99%8E%E5%A4%A9%E4%BD%93_-Lacertid-_jacket.png/revision/latest?cb=20250122182138",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "display": "Shelter",
+      "title": "Shelter",
+      "jackets": [
+        {
+          "source_file": "File:Shelter jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f4/Shelter_jacket.png/revision/latest?cb=20250118133543",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "display": "Kirakira Noel Story!!",
+      "title": "Kirakira_Noel_Story!!",
+      "jackets": [
+        {
+          "source_file": "File:Kirakira Noel Story!! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5c/Kirakira_Noel_Story%21%21_jacket.png/revision/latest?cb=20250118133623",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "display": "Devotion",
+      "title": "Devotion",
+      "jackets": [
+        {
+          "source_file": "File:Devotion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/10/Devotion_jacket.png/revision/latest?cb=20250118133512",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "display": "白と黒のバケモノ",
+      "title": "白と黒のバケモノ",
+      "jackets": [
+        {
+          "source_file": "File:白と黒のバケモノ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e8/%E7%99%BD%E3%81%A8%E9%BB%92%E3%81%AE%E3%83%90%E3%82%B1%E3%83%A2%E3%83%8E_jacket.png/revision/latest?cb=20250118133420",
+          "label": "current",
+          "width": 512,
+          "height": 270,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "display": "Comet",
+      "title": "Comet",
+      "jackets": [
+        {
+          "source_file": "File:Comet jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/52/Comet_jacket.png/revision/latest?cb=20241205111939",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "display": "valor/starcross",
+      "title": "Valor/starcross",
+      "jackets": [
+        {
+          "source_file": "File:Valor-starcross jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3c/Valor-starcross_jacket.png/revision/latest?cb=20241205111647",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "display": "Fixations Toward the Stars",
+      "title": "Fixations_Toward_the_Stars",
+      "jackets": [
+        {
+          "source_file": "File:Fixations Toward the Stars jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3f/Fixations_Toward_the_Stars_jacket.png/revision/latest?cb=20241205111846",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "display": "Le temps perdu",
+      "title": "Le_temps_perdu",
+      "jackets": [
+        {
+          "source_file": "File:Le temps perdu jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b4/Le_temps_perdu_jacket.png/revision/latest?cb=20241109125231",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "display": "Schadenfreude",
+      "title": "Schadenfreude",
+      "jackets": [
+        {
+          "source_file": "File:Schadenfreude jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/94/Schadenfreude_jacket.png/revision/latest?cb=20241109125156",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "display": "Originally",
+      "title": "Originally",
+      "jackets": [
+        {
+          "source_file": "File:Originally jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7f/Originally_jacket.png/revision/latest?cb=20240929052242",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "display": "Thrash force",
+      "title": "Thrash_force",
+      "jackets": [
+        {
+          "source_file": "File:Thrash force jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/4c/Thrash_force_jacket.png/revision/latest?cb=20240929052229",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "display": "Grimheart",
+      "title": "Grimheart",
+      "jackets": [
+        {
+          "source_file": "File:Grimheart jacket.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2d/Grimheart_jacket.webp/revision/latest?cb=20240901191421",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "display": "Bounded Quietude",
+      "title": "Bounded_Quietude",
+      "jackets": [
+        {
+          "source_file": "File:Bounded Quietude jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b2/Bounded_Quietude_jacket.png/revision/latest?cb=20240729060125",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "display": "今天不是明天",
+      "title": "今天不是明天",
+      "jackets": [
+        {
+          "source_file": "File:今天不是明天 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/34/%E4%BB%8A%E5%A4%A9%E4%B8%8D%E6%98%AF%E6%98%8E%E5%A4%A9_jacket.png/revision/latest?cb=20240725032820",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "display": "Bloom",
+      "title": "Bloom",
+      "jackets": [
+        {
+          "source_file": "File:Bloom jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/00/Bloom_jacket.png/revision/latest?cb=20240531181245",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "display": "Shine After",
+      "title": "Shine_After",
+      "jackets": [
+        {
+          "source_file": "File:Shine After jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8d/Shine_After_jacket.png/revision/latest?cb=20240510175649",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "display": "PRAGMATISM -RESURRECTION-",
+      "title": "PRAGMATISM_-RESURRECTION-",
+      "jackets": [
+        {
+          "source_file": "File:PRAGMATISM -RESURRECTION- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/29/PRAGMATISM_-RESURRECTION-_jacket.png/revision/latest?cb=20240429095742",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "display": "Antithese",
+      "title": "Antithese",
+      "jackets": [
+        {
+          "source_file": "File:Antithese jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d8/Antithese_jacket.png/revision/latest?cb=20240429095642",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "display": "BRAIN HACKER",
+      "title": "BRAIN_HACKER",
+      "jackets": [
+        {
+          "source_file": "File:BRAIN HACKER jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/cd/BRAIN_HACKER_jacket.png/revision/latest?cb=20240411180423",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "display": "Broken Sky",
+      "title": "Broken_Sky",
+      "jackets": [
+        {
+          "source_file": "File:Broken Sky jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/eb/Broken_Sky_jacket.png/revision/latest?cb=20240315171012",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "display": "Crush BETA",
+      "title": "Crush_BETA",
+      "jackets": [
+        {
+          "source_file": "File:Crush BETA jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e5/Crush_BETA_jacket.png/revision/latest?cb=20240203162238",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "display": "G.V.N. (Glitter, Vomitus and Neon)",
+      "title": "G.V.N._(Glitter,_Vomitus_and_Neon)",
+      "jackets": [
+        {
+          "source_file": "File:G.V.N. (Glitter, Vomitus and Neon) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/dc/G.V.N._%28Glitter%2C_Vomitus_and_Neon%29_jacket.png/revision/latest?cb=20240203162254",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "display": "聖夜讃歌",
+      "title": "聖夜讃歌",
+      "jackets": [
+        {
+          "source_file": "File:聖夜讃歌 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/92/%E8%81%96%E5%A4%9C%E8%AE%83%E6%AD%8C_jacket.png/revision/latest?cb=20231230153757",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "display": "bye",
+      "title": "Bye",
+      "jackets": [
+        {
+          "source_file": "File:Bye jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7b/Bye_jacket.png/revision/latest?cb=20231230153656",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "display": "Bitterblossom",
+      "title": "Bitterblossom",
+      "jackets": [
+        {
+          "source_file": "File:Bitterblossom jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d8/Bitterblossom_jacket.png/revision/latest?cb=20230930104823",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "display": "Diamond Eyes",
+      "title": "Diamond_Eyes",
+      "jackets": [
+        {
+          "source_file": "File:Diamond Eyes jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f1/Diamond_Eyes_jacket.png/revision/latest?cb=20230930104809",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "display": "Triumph & Regret",
+      "title": "Triumph_&_Regret",
+      "jackets": [
+        {
+          "source_file": "File:Triumph & Regret jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/98/Triumph_%26_Regret_jacket.png/revision/latest?cb=20230831154139",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "display": "ぱぴぷぴぷぴぱ",
+      "title": "ぱぴぷぴぷぴぱ",
+      "jackets": [
+        {
+          "source_file": "File:ぱぴぷぴぷぴぱ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e0/%E3%81%B1%E3%81%B4%E3%81%B7%E3%81%B4%E3%81%B7%E3%81%B4%E3%81%B1_jacket.png/revision/latest?cb=20230730153708",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "display": "Realms",
+      "title": "Realms",
+      "jackets": [
+        {
+          "source_file": "File:Realms jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/17/Realms_jacket.png/revision/latest?cb=20230707194949",
+          "label": "current",
+          "width": 1080,
+          "height": 570,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "display": "Rainy Heart",
+      "title": "Rainy_Heart",
+      "jackets": [
+        {
+          "source_file": "File:Rainy Heart jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/cb/Rainy_Heart_jacket.png/revision/latest?cb=20230707195007",
+          "label": "current",
+          "width": 1080,
+          "height": 570,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "display": "Now Is The Time, Do It",
+      "title": "Now_Is_The_Time,_Do_It",
+      "jackets": [
+        {
+          "source_file": "File:Now Is The Time, Do It jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f2/Now_Is_The_Time%2C_Do_It_jacket.png/revision/latest?cb=20230520072717",
+          "label": "current",
+          "width": 907,
+          "height": 510,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "display": "Bougainvillea",
+      "title": "Bougainvillea",
+      "jackets": [
+        {
+          "source_file": "File:Bougainvillea jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/dd/Bougainvillea_jacket.png/revision/latest?cb=20230520072736",
+          "label": "current",
+          "width": 907,
+          "height": 510,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "display": "Random",
+      "title": "Random",
+      "jackets": [
+        {
+          "source_file": "File:Random jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b1/Random_jacket.png/revision/latest?cb=20230402150246",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "display": "Poison AND÷OR Affection",
+      "title": "Poison_AND÷OR_Affection",
+      "jackets": [
+        {
+          "source_file": "File:Poison AND÷OR Affection jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fe/Poison_AND%C3%B7OR_Affection_jacket.png/revision/latest?cb=20230225185123",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "display": "Upshift",
+      "title": "Upshift",
+      "jackets": [
+        {
+          "source_file": "File:Upshift jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/37/Upshift_jacket.png/revision/latest?cb=20230225184328",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "display": "インフェルノシティ",
+      "title": "インフェルノシティ",
+      "jackets": [
+        {
+          "source_file": "File:インフェルノシティ jacket.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f2/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E%E3%82%B7%E3%83%86%E3%82%A3_jacket.jpg/revision/latest?cb=20230225183958",
+          "label": "current",
+          "width": 1280,
+          "height": 720,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "display": "青丘",
+      "title": "青丘",
+      "jackets": [
+        {
+          "source_file": "File:青丘 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/4e/%E9%9D%92%E4%B8%98_jacket.png/revision/latest?cb=20230113164924",
+          "label": "current",
+          "width": 2039,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "display": "Pont des souvenirs",
+      "title": "Pont_des_souvenirs",
+      "jackets": [
+        {
+          "source_file": "File:Pont des souvenirs jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/22/Pont_des_souvenirs_jacket.png/revision/latest?cb=20221224132716",
+          "label": "current",
+          "width": 1920,
+          "height": 1025,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "display": "Believe Light (feat. 果丸哒呦)",
+      "title": "Believe_Light_(feat._果丸哒呦)",
+      "jackets": [
+        {
+          "source_file": "File:Believe Light (feat. 果丸哒呦) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fc/Believe_Light_%28feat._%E6%9E%9C%E4%B8%B8%E5%93%92%E5%91%A6%29_jacket.png/revision/latest?cb=20221224131834",
+          "label": "current",
+          "width": 2049,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "display": "Break Over",
+      "title": "Break_Over",
+      "jackets": [
+        {
+          "source_file": "File:Break Over jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3c/Break_Over_jacket.png/revision/latest?cb=20221126115007",
+          "label": "current",
+          "width": 1600,
+          "height": 842,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "display": "El Condor Pasa (Phigros Edit)",
+      "title": "El_Condor_Pasa_(Phigros_Edit)",
+      "jackets": [
+        {
+          "source_file": "File:El Condor Pasa (Phigros Edit) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/89/El_Condor_Pasa_%28Phigros_Edit%29_jacket.png/revision/latest?cb=20221126052331",
+          "label": "current",
+          "width": 1910,
+          "height": 1018,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "display": "Rainy Season",
+      "title": "Rainy_Season",
+      "jackets": [
+        {
+          "source_file": "File:Rainy Season jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/49/Rainy_Season_jacket.png/revision/latest?cb=20221105135103",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "display": "Eternal Snow",
+      "title": "Eternal_Snow",
+      "jackets": [
+        {
+          "source_file": "File:Eternal Snow jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/89/Eternal_Snow_jacket.png/revision/latest?cb=20221105135352",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "display": "Brave Notes",
+      "title": "Brave_Notes",
+      "jackets": [
+        {
+          "source_file": "File:Brave Notes.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/Brave_Notes.jpg/revision/latest?cb=20220923120837",
+          "label": "current",
+          "width": 2022,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "display": "c.s.q.n",
+      "title": "C.s.q.n",
+      "jackets": [
+        {
+          "source_file": "File:C.s.q.n.jpeg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e8/C.s.q.n.jpeg/revision/latest?cb=20220923120858",
+          "label": "current",
+          "width": 2025,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "display": "DataErr0r",
+      "title": "DataErr0r",
+      "jackets": [
+        {
+          "source_file": "File:DataErr0r.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/55/DataErr0r.jpg/revision/latest?cb=20220901102735",
+          "label": "current",
+          "width": 2045,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "display": "On And On!!",
+      "title": "On_And_On!!",
+      "jackets": [
+        {
+          "source_file": "File:On And On!! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ea/On_And_On%21%21_jacket.png/revision/latest?cb=20220812180130",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "display": "月下缭乱",
+      "title": "月下缭乱",
+      "jackets": [
+        {
+          "source_file": "File:月下缭乱.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/%E6%9C%88%E4%B8%8B%E7%BC%AD%E4%B9%B1.jpg/revision/latest?cb=20220802123920",
+          "label": "current",
+          "width": 1280,
+          "height": 720,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "display": "いざ、参ります",
+      "title": "いざ、参ります",
+      "jackets": [
+        {
+          "source_file": "File:いざ、参ります jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8d/%E3%81%84%E3%81%96%E3%80%81%E5%8F%82%E3%82%8A%E3%81%BE%E3%81%99_jacket.png/revision/latest?cb=20220701154902",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "display": "opia",
+      "title": "Opia",
+      "jackets": [
+        {
+          "source_file": "File:Opia jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/6a/Opia_jacket.png/revision/latest?cb=20220520174346",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "display": "I Must Say No",
+      "title": "I_Must_Say_No",
+      "jackets": [
+        {
+          "source_file": "File:I Must Say No jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d5/I_Must_Say_No_jacket.png/revision/latest?cb=20220520174134",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "display": "FULi AUTO BUSTER",
+      "title": "FULi_AUTO_BUSTER",
+      "jackets": [
+        {
+          "source_file": "File:FULi AUTO BUSTER jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/27/FULi_AUTO_BUSTER_jacket.png/revision/latest?cb=20220408173404",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "display": "Luminescent",
+      "title": "Luminescent",
+      "jackets": [
+        {
+          "source_file": "File:Luminescent jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d6/Luminescent_jacket.png/revision/latest?cb=20220318085738",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "display": "Future Mind",
+      "title": "Future_Mind",
+      "jackets": [
+        {
+          "source_file": "File:Future Mind jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b2/Future_Mind_jacket.png/revision/latest?cb=20220225094836",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "display": "996",
+      "title": "996",
+      "jackets": [
+        {
+          "source_file": "File:996 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/996_jacket.png/revision/latest?cb=20220121100048",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "display": "Another Round",
+      "title": "Another_Round",
+      "jackets": [
+        {
+          "source_file": "File:Another Round jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/dd/Another_Round_jacket.png/revision/latest?cb=20220121100325",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "display": "Dreamland",
+      "title": "Dreamland",
+      "jackets": [
+        {
+          "source_file": "File:Dreamland jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/cc/Dreamland_jacket.png/revision/latest?cb=20220121100131",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "display": "ジングルベル(Jingle Bell)",
+      "title": "ジングルベル(Jingle_Bell)",
+      "jackets": [
+        {
+          "source_file": "File:ジングルベル(Jingle Bell) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fb/%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%99%E3%83%AB%28Jingle_Bell%29_jacket.png/revision/latest?cb=20211225114629",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "display": "Concvssion",
+      "title": "Concvssion",
+      "jackets": [
+        {
+          "source_file": "File:Concvssion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1e/Concvssion_jacket.png/revision/latest?cb=20211225114122",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "display": "ρars/ey",
+      "title": "Parsley",
+      "jackets": [
+        {
+          "source_file": "File:Parsley jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5c/Parsley_jacket.png/revision/latest?cb=20211112092835",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "display": "Kerberos",
+      "title": "Kerberos",
+      "jackets": [
+        {
+          "source_file": "File:Kerberos jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2b/Kerberos_jacket.png/revision/latest?cb=20211023034936",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "display": "-Arkhei-",
+      "title": "-Arkhei-",
+      "jackets": [
+        {
+          "source_file": "File:-Arkhei- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0d/-Arkhei-_jacket.png/revision/latest?cb=20211024002742",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "display": "Nhelv",
+      "title": "Nhelv",
+      "jackets": [
+        {
+          "source_file": "File:Nhelv jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fc/Nhelv_jacket.png/revision/latest?cb=20211023034705",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "display": "energy trixxx",
+      "title": "Energy_trixxx",
+      "jackets": [
+        {
+          "source_file": "File:Energy trixxx jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3e/Energy_trixxx_jacket.png/revision/latest?cb=20210725054400",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "display": "游园地",
+      "title": "游园地",
+      "jackets": [
+        {
+          "source_file": "File:游园地 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d5/%E6%B8%B8%E5%9B%AD%E5%9C%B0_jacket.png/revision/latest?cb=20210709114732",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "display": "Apocalyptic",
+      "title": "Apocalyptic",
+      "jackets": [
+        {
+          "source_file": "File:Apocalyptic jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2e/Apocalyptic_jacket.png/revision/latest?cb=20210709114611",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "display": "Unorthodox Thoughts",
+      "title": "Unorthodox_Thoughts",
+      "jackets": [
+        {
+          "source_file": "File:Unorthodox Thoughts jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ee/Unorthodox_Thoughts_jacket.png/revision/latest?cb=20210618101106",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "display": "With You",
+      "title": "With_You",
+      "jackets": [
+        {
+          "source_file": "File:With You jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/34/With_You_jacket.png/revision/latest?cb=20210618101019",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "display": "Better Graphic Animation",
+      "title": "Better_Graphic_Animation",
+      "jackets": [
+        {
+          "source_file": "File:Better Graphic Animation jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/Better_Graphic_Animation_jacket.png/revision/latest?cb=20210430095832",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "display": "Eltaw",
+      "title": "Eltaw",
+      "jackets": [
+        {
+          "source_file": "File:Eltaw jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/31/Eltaw_jacket.png/revision/latest?cb=20210415064025",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "display": "大和撫子 -Wild Dances-",
+      "title": "大和撫子_-Wild_Dances-",
+      "jackets": [
+        {
+          "source_file": "File:大和撫子 -Wild Dances- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/39/%E5%A4%A7%E5%92%8C%E6%92%AB%E5%AD%90_-Wild_Dances-_jacket.png/revision/latest?cb=20210415064007",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "display": "Wavetapper",
+      "title": "Wavetapper",
+      "jackets": [
+        {
+          "source_file": "File:WaveTapper jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/40/WaveTapper_jacket.png/revision/latest?cb=20210331232301",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "display": "modulus",
+      "title": "Modulus",
+      "jackets": [
+        {
+          "source_file": "File:Modulus jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c0/Modulus_jacket.png/revision/latest?cb=20210115103333",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "display": "Cervelle Connexion",
+      "title": "Cervelle_Connexion",
+      "jackets": [
+        {
+          "source_file": "File:Cervelle Connexion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/37/Cervelle_Connexion_jacket.png/revision/latest?cb=20210115103235",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "display": "雪降り、メリクリ",
+      "title": "雪降り、メリクリ",
+      "jackets": [
+        {
+          "source_file": "File:雪降り、メリクリ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/22/%E9%9B%AA%E9%99%8D%E3%82%8A%E3%80%81%E3%83%A1%E3%83%AA%E3%82%AF%E3%83%AA_jacket.png/revision/latest?cb=20201224104236",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "display": "Träne",
+      "title": "Träne",
+      "jackets": [
+        {
+          "source_file": "File:Träne jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/12/Tr%C3%A4ne_jacket.png/revision/latest?cb=20201224104222",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "display": "Äventyr",
+      "title": "Äventyr",
+      "jackets": [
+        {
+          "source_file": "File:Äventyr jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9c/%C3%84ventyr_jacket.png/revision/latest?cb=20201224104042",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "display": "Hardcore Kwaya",
+      "title": "Hardcore_Kwaya",
+      "jackets": [
+        {
+          "source_file": "File:Hardcore Kwaya jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b6/Hardcore_Kwaya_jacket.png/revision/latest?cb=20201211055457",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "display": "SIGMA",
+      "title": "SIGMA",
+      "jackets": [
+        {
+          "source_file": "File:SIGMA jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8d/SIGMA_jacket.png/revision/latest?cb=20201113100514",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "display": "Electron",
+      "title": "Electron",
+      "jackets": [
+        {
+          "source_file": "File:Electron jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/26/Electron_jacket.png/revision/latest?cb=20201113100459",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "display": "Starduster",
+      "title": "Starduster",
+      "jackets": [
+        {
+          "source_file": "File:Starduster jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2b/Starduster_jacket.png/revision/latest?cb=20201016092624",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "display": "Parallel Retrogression(Game Ver.)",
+      "title": "Parallel_Retrogression(Game_Ver.)",
+      "jackets": [
+        {
+          "source_file": "File:Parallel Retrogression(Game Ver.) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/11/Parallel_Retrogression%28Game_Ver.%29_jacket.png/revision/latest?cb=20201016092602",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "display": "End Me",
+      "title": "End_Me",
+      "jackets": [
+        {
+          "source_file": "File:End Me jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/94/End_Me_jacket.png/revision/latest?cb=20200920073222",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "display": "Orthodox",
+      "title": "Orthodox",
+      "jackets": [
+        {
+          "source_file": "File:Orthodox jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2d/Orthodox_jacket.png/revision/latest?cb=20200920073210",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "display": "The Mountain Eater",
+      "title": "The_Mountain_Eater",
+      "jackets": [
+        {
+          "source_file": "File:The Mountain Eater jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d0/The_Mountain_Eater_jacket.png/revision/latest?cb=20200901050936",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "display": "Palescreen",
+      "title": "Palescreen",
+      "jackets": [
+        {
+          "source_file": "File:Palescreen jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1d/Palescreen_jacket.png/revision/latest?cb=20200619093557",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "display": "Get Back",
+      "title": "Get_Back",
+      "jackets": [
+        {
+          "source_file": "",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/47/Get_Back_jacket.png/revision/latest?cb=20240315171346",
+          "label": "current",
+          "width": null,
+          "height": null,
+          "selected": true
+        },
+        {
+          "source_file": "File:Get Back old jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/67/Get_Back_old_jacket.png/revision/latest?cb=20200529101105",
+          "label": "old",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "display": "Magenta Potion",
+      "title": "Magenta_Potion",
+      "jackets": [
+        {
+          "source_file": "File:Magenta Potion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/52/Magenta_Potion_jacket.png/revision/latest?cb=20200522092452",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "display": "Speed Up!",
+      "title": "Speed_Up!",
+      "jackets": [
+        {
+          "source_file": "File:Speed Up! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/93/Speed_Up%21_jacket.png/revision/latest?cb=20200522092347",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Speed Up! new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/49/Speed_Up%21_new_jacket.png/revision/latest?cb=20211023034650",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "display": "Dead Soul",
+      "title": "Dead_Soul",
+      "jackets": [
+        {
+          "source_file": "File:Dead Soul jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2d/Dead_Soul_jacket.png/revision/latest?cb=20200401063653",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "display": "Rubbish Sorting",
+      "title": "Rubbish_Sorting",
+      "jackets": [
+        {
+          "source_file": "File:Rubbish Sorting jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/86/Rubbish_Sorting_jacket.png/revision/latest?cb=20200329130441",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "display": "Next Time",
+      "title": "Next_Time",
+      "jackets": [
+        {
+          "source_file": "File:Next Time jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5c/Next_Time_jacket.png/revision/latest?cb=20200329130347",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "display": "Aleph-0",
+      "title": "Aleph-0",
+      "jackets": [
+        {
+          "source_file": "File:Aleph-0 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c7/Aleph-0_jacket.png/revision/latest?cb=20200329131335",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "display": "Burn",
+      "title": "Burn",
+      "jackets": [
+        {
+          "source_file": "File:Burn jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/Burn_jacket.png/revision/latest?cb=20200329131134",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "display": "Snow Desert",
+      "title": "Snow_Desert",
+      "jackets": [
+        {
+          "source_file": "File:Snow Desert jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/cc/Snow_Desert_jacket.png/revision/latest?cb=20200329131259",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "display": "Khronostasis Katharsis",
+      "title": "Khronostasis_Katharsis",
+      "jackets": [
+        {
+          "source_file": "File:Khronostasis Katharsis jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/11/Khronostasis_Katharsis_jacket.png/revision/latest?cb=20200329131015",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "display": "Sparkle New Life",
+      "title": "Sparkle_New_Life",
+      "jackets": [
+        {
+          "source_file": "File:Sparkle New Life jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/39/Sparkle_New_Life_jacket.png/revision/latest?cb=20200329130928",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "display": "狂喜蘭舞",
+      "title": "狂喜蘭舞",
+      "jackets": [
+        {
+          "source_file": "File:狂喜蘭舞 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/6e/%E7%8B%82%E5%96%9C%E8%98%AD%E8%88%9E_jacket.png/revision/latest?cb=20200329130845",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "display": "Sein",
+      "title": "Sein",
+      "jackets": [
+        {
+          "source_file": "File:Sein jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/10/Sein_jacket.png/revision/latest?cb=20200329130808",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "display": "Find_Me",
+      "title": "Find_Me",
+      "jackets": [
+        {
+          "source_file": "File:Find Me jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/49/Find_Me_jacket.png/revision/latest?cb=20200329130522",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "display": "華灯爱",
+      "title": "華灯爱",
+      "jackets": [
+        {
+          "source_file": "File:華灯爱 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ee/%E8%8F%AF%E7%81%AF%E7%88%B1_jacket.png/revision/latest?cb=20200329125625",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "display": "开心病",
+      "title": "开心病",
+      "jackets": [
+        {
+          "source_file": "File:开心病 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/44/%E5%BC%80%E5%BF%83%E7%97%85_jacket.png/revision/latest?cb=20200329125549",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:开心病 new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e0/%E5%BC%80%E5%BF%83%E7%97%85_new_jacket.png/revision/latest?cb=20230422194704",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "display": "Aphasia",
+      "title": "Aphasia",
+      "jackets": [
+        {
+          "source_file": "File:Aphasia jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a6/Aphasia_jacket.png/revision/latest?cb=20200329125502",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Aphasia new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/62/Aphasia_new_jacket.png/revision/latest?cb=20211023034721",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "display": "RIPPER",
+      "title": "RIPPER",
+      "jackets": [
+        {
+          "source_file": "File:RIPPER (new) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0f/RIPPER_%28new%29_jacket.png/revision/latest?cb=20200321001617",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:RIPPER jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/53/RIPPER_jacket.png/revision/latest?cb=20200321001952",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "display": "Drop It",
+      "title": "Drop_It",
+      "jackets": [
+        {
+          "source_file": "File:Drop It jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/41/Drop_It_jacket.png/revision/latest?cb=20200329125926",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Drop It new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b5/Drop_It_new_jacket.png/revision/latest?cb=20200428015304",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "display": "云女孩",
+      "title": "云女孩",
+      "jackets": [
+        {
+          "source_file": "File:云女孩 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9b/%E4%BA%91%E5%A5%B3%E5%AD%A9_jacket.png/revision/latest?cb=20200329125844",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Ynh.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7b/Ynh.jpg/revision/latest?cb=20200708200329",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "display": "Dash",
+      "title": "Dash",
+      "jackets": [
+        {
+          "source_file": "File:Dash jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/50/Dash_jacket.png/revision/latest?cb=20200329125801",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 137,
+      "display": "dB doll",
+      "title": "DB_doll",
+      "jackets": [
+        {
+          "source_file": "File:DB doll jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/54/DB_doll_jacket.png/revision/latest?cb=20200329125725",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 138,
+      "display": "风屿",
+      "title": "风屿",
+      "jackets": [
+        {
+          "source_file": "File:风屿 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/99/%E9%A3%8E%E5%B1%BF_jacket.png/revision/latest?cb=20200329132016",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "display": "万吨匿名信",
+      "title": "万吨匿名信",
+      "jackets": [
+        {
+          "source_file": "File:万吨匿名信 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/63/%E4%B8%87%E5%90%A8%E5%8C%BF%E5%90%8D%E4%BF%A1_jacket.png/revision/latest?cb=20211023033105",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:万吨匿名信 new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/74/%E4%B8%87%E5%90%A8%E5%8C%BF%E5%90%8D%E4%BF%A1_new_jacket.png/revision/latest?cb=20211023034857",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "display": "萤火虫の怨",
+      "title": "萤火虫の怨",
+      "jackets": [
+        {
+          "source_file": "File:萤火虫の怨 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e8/%E8%90%A4%E7%81%AB%E8%99%AB%E3%81%AE%E6%80%A8_jacket.png/revision/latest?cb=20200329131438",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "display": "MARENOL",
+      "title": "MARENOL",
+      "jackets": [
+        {
+          "source_file": "MarenolBG.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d3/MarenolBG.png/revision/latest?cb=20190929010347",
+          "label": "old",
+          "width": null,
+          "height": null,
+          "selected": true
+        },
+        {
+          "source_file": "MARENOL_new_jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/6f/MARENOL_new_jacket.png/revision/latest?cb=20200920103009",
+          "label": "current",
+          "width": null,
+          "height": null,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "display": "もぺもぺ",
+      "title": "もぺもぺ",
+      "jackets": [
+        {
+          "source_file": "File:MopemopeBG.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/be/MopemopeBG.png/revision/latest?cb=20190929013049",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "display": "Doppelganger",
+      "title": "Doppelganger",
+      "jackets": [
+        {
+          "source_file": "File:DoppelgangerBG.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/64/DoppelgangerBG.png/revision/latest?cb=20190929014106",
+          "label": "v1",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        },
+        {
+          "source_file": "File:DoppelgangerBG (New Version).png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2c/DoppelgangerBG_%28New_Version%29.png/revision/latest?cb=20190929020403",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "display": "Christmas",
+      "title": "Christmas",
+      "jackets": [
+        {
+          "source_file": "File:Christmas jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/00/Christmas_jacket.png/revision/latest?cb=20200317102705",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "display": "Burn(Haocore Mix)",
+      "title": "Burn(Haocore_Mix)",
+      "jackets": [
+        {
+          "source_file": "File:Burn jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/Burn_jacket.png/revision/latest?cb=20200329131134",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "display": "Sigma (Haocore Mix) ~ 105秒の伝説 ~",
+      "title": "Sigma_(Haocore_Mix)_~_105秒の伝説_~",
+      "jackets": [
+        {
+          "source_file": "File:Sigma (Haocore Mix) ~ 105秒の伝説 ~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/77/Sigma_%28Haocore_Mix%29_~_105%E7%A7%92%E3%81%AE%E4%BC%9D%E8%AA%AC_~_jacket.png/revision/latest?cb=20220407024853",
+          "label": "current",
+          "width": 1448,
+          "height": 763,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 151,
+      "display": "Sigma (Haocore Mix) ~ Regrets of the Yellow Tulip ~",
+      "title": "Sigma_(Haocore_Mix)_~_Regrets_of_the_Yellow_Tulip_~",
+      "jackets": [
+        {
+          "source_file": "File:Sigma (Haocore Mix) ~ Regrets of the Yellow Tulip ~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9f/Sigma_%28Haocore_Mix%29_~_Regrets_of_the_Yellow_Tulip_~_jacket.png/revision/latest?cb=20220407024308",
+          "label": "current",
+          "width": 1280,
+          "height": 720,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 152,
+      "display": "今年も「雪降り、メリクリ」目指して頑張ります！！",
+      "title": "今年も「雪降り、メリクリ」目指して頑張ります！！",
+      "jackets": [
+        {
+          "source_file": "File:今年も「雪降り、メリクリ」目指して頑張ります！！ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/%E4%BB%8A%E5%B9%B4%E3%82%82%E3%80%8C%E9%9B%AA%E9%99%8D%E3%82%8A%E3%80%81%E3%83%A1%E3%83%AA%E3%82%AF%E3%83%AA%E3%80%8D%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%99%EF%BC%81%EF%BC%81_jacket.png/revision/latest?cb=20230402115804",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 153,
+      "display": "Glaciaxion",
+      "title": "Glaciaxion",
+      "jackets": [
+        {
+          "source_file": "File:Glaciaxion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f2/Glaciaxion_jacket.png/revision/latest?cb=20200317111235",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 154,
+      "display": "Eradication Catastrophe",
+      "title": "Eradication_Catastrophe",
+      "jackets": [
+        {
+          "source_file": "File:Eradication Catastrophe jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/29/Eradication_Catastrophe_jacket.png/revision/latest?cb=20200319044855",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 155,
+      "display": "Credits",
+      "title": "Credits",
+      "jackets": [
+        {
+          "source_file": "File:Credits jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/43/Credits_jacket.png/revision/latest?cb=20200319050158",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "display": "Dlyrotz",
+      "title": "Dlyrotz",
+      "jackets": [
+        {
+          "source_file": "File:Dlyrotz jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9c/Dlyrotz_jacket.png/revision/latest?cb=20200319051408",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 157,
+      "display": "Engine x Start!! (melody mix)",
+      "title": "Engine_x_Start!!_(melody_mix)",
+      "jackets": [
+        {
+          "source_file": "File:Engine x Start!! (melody mix) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d3/Engine_x_Start%21%21_%28melody_mix%29_jacket.png/revision/latest?cb=20200319052652",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 158,
+      "display": "光",
+      "title": "光",
+      "jackets": [
+        {
+          "source_file": "File:光 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c1/%E5%85%89_jacket.png/revision/latest?cb=20200319054151",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 159,
+      "display": "Winter ↑cube↓",
+      "title": "Winter_↑cube↓",
+      "jackets": [
+        {
+          "source_file": "File:Winter ↑cube↓ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3a/Winter_%E2%86%91cube%E2%86%93_jacket.png/revision/latest?cb=20200319022503",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "display": "混乱-Confusion",
+      "title": "混乱-Confusion",
+      "jackets": [
+        {
+          "source_file": "File:混乱-Confusion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/%E6%B7%B7%E4%B9%B1-Confusion_jacket.png/revision/latest?cb=20200319060110",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "display": "Cipher : /2&//<|0",
+      "title": "Cipher",
+      "jackets": [
+        {
+          "source_file": "File:Cipher jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0d/Cipher_jacket.png/revision/latest?cb=20200319054758",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Cipher new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ec/Cipher_new_jacket.png/revision/latest?cb=20211023035141",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "display": "FULi AUTO SHOOTER",
+      "title": "FULi_AUTO_SHOOTER",
+      "jackets": [
+        {
+          "source_file": "File:FULi AUTO SHOOTER jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f3/FULi_AUTO_SHOOTER_jacket.png/revision/latest?cb=20200319061354",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:FULi AUTO SHOOTER new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/69/FULi_AUTO_SHOOTER_new_jacket.png/revision/latest?cb=20200531050157",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 163,
+      "display": "HumaN",
+      "title": "HumaN",
+      "jackets": [
+        {
+          "source_file": "File:HumaN jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/be/HumaN_jacket.png/revision/latest?cb=20200319062410",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "display": "[PRAW]",
+      "title": "PRAW",
+      "jackets": [
+        {
+          "source_file": "File:PRAW jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8f/PRAW_jacket.png/revision/latest?cb=20200319102234",
+          "label": "v1",
+          "width": 2048,
+          "height": 1083,
+          "selected": true
+        },
+        {
+          "source_file": "File:PRAW new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b5/PRAW_new_jacket.png/revision/latest?cb=20200619115337",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "display": "Cereris",
+      "title": "Cereris",
+      "jackets": [
+        {
+          "source_file": "File:Cereris jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a4/Cereris_jacket.png/revision/latest?cb=20200319104857",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Cereris new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7e/Cereris_new_jacket.png/revision/latest?cb=20211023035058",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 166,
+      "display": "Pixel Rebelz",
+      "title": "Pixel_Rebelz",
+      "jackets": [
+        {
+          "source_file": "File:Pixel Rebelz (new) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/Pixel_Rebelz_%28new%29_jacket.png/revision/latest?cb=20200319103339",
+          "label": "new",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Pixel Rebelz jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/56/Pixel_Rebelz_jacket.png/revision/latest?cb=20200319104229",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Pixel Rebelz jacket 3.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/66/Pixel_Rebelz_jacket_3.png/revision/latest?cb=20210305094724",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 167,
+      "display": "Non-Melodic Ragez (MUG Edit)",
+      "title": "Non-Melodic_Ragez_(MUG_Edit)",
+      "jackets": [
+        {
+          "source_file": "File:Non-Melodic Ragez (MUG Edit) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a5/Non-Melodic_Ragez_%28MUG_Edit%29_jacket.png/revision/latest?cb=20200329123953",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "display": "Sultan Rage",
+      "title": "Sultan_Rage",
+      "jackets": [
+        {
+          "source_file": "File:Sultan Rage jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/28/Sultan_Rage_jacket.png/revision/latest?cb=20200329124046",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 169,
+      "display": "Class Memories",
+      "title": "Class_Memories",
+      "jackets": [
+        {
+          "source_file": "File:Class Memories jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/bf/Class_Memories_jacket.png/revision/latest?cb=20200329124125",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 170,
+      "display": "-SURREALISM-",
+      "title": "-SURREALISM-",
+      "jackets": [
+        {
+          "source_file": "File:-SURREALISM- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ae/-SURREALISM-_jacket.png/revision/latest?cb=20200329124434",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 171,
+      "display": "Bonus Time",
+      "title": "Bonus_Time",
+      "jackets": [
+        {
+          "source_file": "File:Bonus Time.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d2/Bonus_Time.png/revision/latest?cb=20190929145352",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Bonus Time jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2e/Bonus_Time_jacket.png/revision/latest?cb=20200329124531",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 172,
+      "display": "ENERGY SYNERGY MATRIX",
+      "title": "ENERGY_SYNERGY_MATRIX",
+      "jackets": [
+        {
+          "source_file": "File:ESMBG.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3d/ESMBG.png/revision/latest?cb=20190929145619",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 173,
+      "display": "Winter ↑cube↓ (Original mix)",
+      "title": "Winter_↑cube↓_(Original_mix)",
+      "jackets": [
+        {
+          "source_file": "File:Winter ↑cube↓ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3a/Winter_%E2%86%91cube%E2%86%93_jacket.png/revision/latest?cb=20200319022503",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 174,
+      "display": "Spasmodic(Haocore Mix)",
+      "title": "Spasmodic(Haocore_Mix)",
+      "jackets": [
+        {
+          "source_file": "File:Spasmodic(Haocore Mix) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a1/Spasmodic%28Haocore_Mix%29_jacket.png/revision/latest?cb=20210331232836",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 175,
+      "display": "Dlyrotz -SUPER ULTIMATE AMAZING AWESOME PRO MAX EXTRA REMIX-",
+      "title": "Dlyrotz_-SUPER_ULTIMATE_AMAZING_AWESOME_PRO_MAX_EXTRA_REMIX-",
+      "jackets": [
+        {
+          "source_file": "File:Dlyrotz sp.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c9/Dlyrotz_sp.webp/revision/latest?cb=20250331171254",
+          "label": "current",
+          "width": 720,
+          "height": 380,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 176,
+      "display": "NYA!!! (Phigros ver.)",
+      "title": "NYA!!!",
+      "jackets": [
+        {
+          "source_file": "File:NYA!!! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/33/NYA%21%21%21_jacket.png/revision/latest?cb=20200329124759",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:NYA!!! new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e0/NYA%21%21%21_new_jacket.png/revision/latest?cb=20220521163646",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 177,
+      "display": "JunXion Between Life And Death(VIP Mix)",
+      "title": "JunXion_Between_Life_And_Death(VIP_Mix)",
+      "jackets": [
+        {
+          "source_file": "File:Jbl&dNewJacket.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3b/Jbl%26dNewJacket.jpg/revision/latest?cb=20220901000130",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 178,
+      "display": "cryout",
+      "title": "Cryout",
+      "jackets": [
+        {
+          "source_file": "File:Cryout jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9d/Cryout_jacket.png/revision/latest?cb=20200329125102",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 179,
+      "display": "Reimei",
+      "title": "Reimei",
+      "jackets": [
+        {
+          "source_file": "File:Reimei jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/55/Reimei_jacket.png/revision/latest?cb=20200329125155",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 180,
+      "display": "尊師 ～The Guru～",
+      "title": "尊師_～The_Guru～",
+      "jackets": [
+        {
+          "source_file": "File:尊師 ～The Guru～ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/14/%E5%B0%8A%E5%B8%AB_%EF%BD%9EThe_Guru%EF%BD%9E_jacket.png/revision/latest?cb=20200329125234",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 181,
+      "display": "Spasmodic",
+      "title": "Spasmodic",
+      "jackets": [
+        {
+          "source_file": "File:Spasmodic jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1d/Spasmodic_jacket.png/revision/latest?cb=20200329125334",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Spasmodic locked jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/35/Spasmodic_locked_jacket.png/revision/latest?cb=20200506031018",
+          "label": "locked",
+          "width": 1280,
+          "height": 675,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 182,
+      "display": "Leave All Behind",
+      "title": "Leave_All_Behind",
+      "jackets": [
+        {
+          "source_file": "File:Leave All Behind jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/4c/Leave_All_Behind_jacket.png/revision/latest?cb=20200703102733",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 183,
+      "display": "Colorful Days♪",
+      "title": "Colorful_Days♪",
+      "jackets": [
+        {
+          "source_file": "File:Colorful Days♪ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fa/Colorful_Days%E2%99%AA_jacket.png/revision/latest?cb=20200901051138",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "display": "micro.wav",
+      "title": "Micro.wav",
+      "jackets": [
+        {
+          "source_file": "File:Micro.wav jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/Micro.wav_jacket.png/revision/latest?cb=20200901051659",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 185,
+      "display": "重生",
+      "title": "重生",
+      "jackets": [
+        {
+          "source_file": "File:重生 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/%E9%87%8D%E7%94%9F_jacket.png/revision/latest?cb=20200901051937",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 186,
+      "display": "NO ONE YES MAN",
+      "title": "NO_ONE_YES_MAN",
+      "jackets": [
+        {
+          "source_file": "File:NO ONE YES MAN jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/eb/NO_ONE_YES_MAN_jacket.png/revision/latest?cb=20200901051718",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 187,
+      "display": "望影の方舟Six",
+      "title": "望影の方舟Six",
+      "jackets": [
+        {
+          "source_file": "File:望影の方舟Six jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/62/%E6%9C%9B%E5%BD%B1%E3%81%AE%E6%96%B9%E8%88%9FSix_jacket.png/revision/latest?cb=20200901051750",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 188,
+      "display": "Igallta",
+      "title": "Igallta",
+      "jackets": [
+        {
+          "source_file": "File:Igallta jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5d/Igallta_jacket.png/revision/latest?cb=20200901051311",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 189,
+      "display": "Clock Paradox",
+      "title": "Clock_Paradox",
+      "jackets": [
+        {
+          "source_file": "File:Clock Paradox jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/81/Clock_Paradox_jacket.png/revision/latest?cb=20211023035130",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 190,
+      "display": "Chronologika",
+      "title": "Chronologika",
+      "jackets": [
+        {
+          "source_file": "File:Chronologika jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/Chronologika_jacket.png/revision/latest?cb=20211023035028",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 191,
+      "display": "Nick of Time",
+      "title": "Nick_of_Time",
+      "jackets": [
+        {
+          "source_file": "File:Nick of Time jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7c/Nick_of_Time_jacket.png/revision/latest?cb=20211023005317",
+          "label": "current",
+          "width": 835,
+          "height": 439,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 192,
+      "display": "Chronomia",
+      "title": "Chronomia",
+      "jackets": [
+        {
+          "source_file": "File:Chronomia jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/88/Chronomia_jacket.png/revision/latest?cb=20211023035013",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "display": "Chronos Collapse - La Campanella",
+      "title": "Chronos_Collapse_-_La_Campanella",
+      "jackets": [
+        {
+          "source_file": "File:Chronos Collapse - La Campanella jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2b/Chronos_Collapse_-_La_Campanella_jacket.png/revision/latest?cb=20211023034917",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "display": "Rrhar'il",
+      "title": "Rrharil",
+      "jackets": [
+        {
+          "source_file": "File:Rrhar'il jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e5/Rrhar%27il_jacket.png/revision/latest?cb=20211023035116",
+          "label": "current",
+          "width": 1024,
+          "height": 540,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 195,
+      "display": "Crave Wave",
+      "title": "Crave_Wave",
+      "jackets": [
+        {
+          "source_file": "File:Crave Wave jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f8/Crave_Wave_jacket.png/revision/latest?cb=20230421193754",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd Crave Wave.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/25/Afd_Crave_Wave.png/revision/latest?cb=20250318145734",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd Crave Wave (FC).png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e9/Afd_Crave_Wave_%28FC%29.png/revision/latest?cb=20250318155302",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 196,
+      "display": "The Chariot ~REVIIVAL~",
+      "title": "The_Chariot_~REVIIVAL~",
+      "jackets": [
+        {
+          "source_file": "File:The Chariot ~REVIIVAL~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/The_Chariot_~REVIIVAL~_jacket.png/revision/latest?cb=20230421193857",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd The Chariot.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7a/Afd_The_Chariot.png/revision/latest?cb=20250318145942",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "display": "Luminescence",
+      "title": "Luminescence",
+      "jackets": [
+        {
+          "source_file": "File:Luminescence jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/bb/Luminescence_jacket.png/revision/latest?cb=20230421193727",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd Luminescence.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0d/Afd_Luminescence.png/revision/latest?cb=20250318145353",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 198,
+      "display": "Retribution",
+      "title": "Retribution",
+      "jackets": [
+        {
+          "source_file": "File:Retribution jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/00/Retribution_jacket.png/revision/latest?cb=20230422144445",
+          "label": "current",
+          "width": 4096,
+          "height": 2160,
+          "selected": true
+        },
+        {
+          "source_file": "File:AFD retribution (no FC).png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d3/AFD_retribution_%28no_FC%29.png/revision/latest?cb=20250318143712",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:AFD retribution (FC).png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/AFD_retribution_%28FC%29.png/revision/latest?cb=20250319043505",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:AFD retribution (revisit).png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5f/AFD_retribution_%28revisit%29.png/revision/latest?cb=20250318145117",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 199,
+      "display": "DESTRUCTION 3,2,1",
+      "title": "DESTRUCTION_3,2,1",
+      "jackets": [
+        {
+          "source_file": "File:DESTRUCTION 321.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c1/DESTRUCTION_321.webp/revision/latest?cb=20230422143428",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd DESTRUCTION 3,2,1.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d5/Afd_DESTRUCTION_3%2C2%2C1.png/revision/latest?cb=20250318145816",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 200,
+      "display": "Distorted Fate",
+      "title": "Distorted_Fate",
+      "jackets": [
+        {
+          "source_file": "File:Distorted Fate.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/68/Distorted_Fate.webp/revision/latest?cb=20230421122357",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        },
+        {
+          "source_file": "File:Afd Distorted Fate.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fd/Afd_Distorted_Fate.png/revision/latest?cb=20250318145448",
+          "label": "afd",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 208,
+      "display": "Ποσειδών",
+      "title": "Ποσειδών",
+      "jackets": [
+        {
+          "source_file": "File:Ποσειδών jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9a/%CE%A0%CE%BF%CF%83%CE%B5%CE%B9%CE%B4%CF%8E%CE%BD_jacket.png/revision/latest?cb=20201127210105",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 209,
+      "display": "WATER",
+      "title": "WATER",
+      "jackets": [
+        {
+          "source_file": "File:WATER jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2f/WATER_jacket.png/revision/latest?cb=20201127211359",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 210,
+      "display": "Miracle Forest (VIP Mix)",
+      "title": "Miracle_Forest_(VIP_Mix)",
+      "jackets": [
+        {
+          "source_file": "File:Miracle Forest (VIP Mix) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fb/Miracle_Forest_%28VIP_Mix%29_jacket.png/revision/latest?cb=20201127210316",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 211,
+      "display": "MOBILYS",
+      "title": "MOBILYS",
+      "jackets": [
+        {
+          "source_file": "File:MOBILYS jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3f/MOBILYS_jacket.png/revision/latest?cb=20201127211011",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 212,
+      "display": "Lyrith -迷宮リリス-",
+      "title": "Lyrith_-迷宮リリス-",
+      "jackets": [
+        {
+          "source_file": "File:Lyrith -迷宮リリス- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f5/Lyrith_-%E8%BF%B7%E5%AE%AE%E3%83%AA%E3%83%AA%E3%82%B9-_jacket.png/revision/latest?cb=20201127210247",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 213,
+      "display": "Demiurge",
+      "title": "Demiurge",
+      "jackets": [
+        {
+          "source_file": "File:Demiurge jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1d/Demiurge_jacket.png/revision/latest?cb=20220318085712",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 214,
+      "display": "Demonkin",
+      "title": "Demonkin",
+      "jackets": [
+        {
+          "source_file": "File:Demonkin jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e7/Demonkin_jacket.png/revision/latest?cb=20220430022149",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 215,
+      "display": "Re_Nascence (Psystyle Ver.)",
+      "title": "Re_Nascence_(Psystyle_Ver.)",
+      "jackets": [
+        {
+          "source_file": "File:Re Nascence (Psystyle Ver.) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/41/Re_Nascence_%28Psystyle_Ver.%29_jacket.png/revision/latest?cb=20220430022633",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 216,
+      "display": "Ark",
+      "title": "Ark",
+      "jackets": [
+        {
+          "source_file": "File:Ark jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5a/Ark_jacket.png/revision/latest?cb=20220430022258",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 217,
+      "display": "After Dawn",
+      "title": "After_Dawn",
+      "jackets": [
+        {
+          "source_file": "File:After Dawn jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b7/After_Dawn_jacket.png/revision/latest?cb=20220430022351",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 218,
+      "display": "INFiNiTE ENERZY -Overdoze-",
+      "title": "INFiNiTE_ENERZY_-Overdoze-",
+      "jackets": [
+        {
+          "source_file": "File:INFiNiTE ENERZY -Overdoze- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1a/INFiNiTE_ENERZY_-Overdoze-_jacket.png/revision/latest?cb=20220430022733",
+          "label": "current",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 219,
+      "display": "Khalid",
+      "title": "Khalid",
+      "jackets": [
+        {
+          "source_file": "File:Khalid jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/87/Khalid_jacket.png/revision/latest?cb=20240225172802",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 220,
+      "display": "Quantum Hyperspace",
+      "title": "Quantum_Hyperspace",
+      "jackets": [
+        {
+          "source_file": "File:Quantum Hyperspace jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f5/Quantum_Hyperspace_jacket.png/revision/latest?cb=20240225172814",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 221,
+      "display": "Freaky Undulations ~Noble Knights of Tune~",
+      "title": "Freaky_Undulations_~Noble_Knights_of_Tune~",
+      "jackets": [
+        {
+          "source_file": "File:Freaky Undulations ~Noble Knights of Tune~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1c/Freaky_Undulations_~Noble_Knights_of_Tune~_jacket.png/revision/latest?cb=20240225172752",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 222,
+      "display": "PANIC PARADISE",
+      "title": "PANIC_PARADISE",
+      "jackets": [
+        {
+          "source_file": "File:PANIC PARADISE jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0a/PANIC_PARADISE_jacket.png/revision/latest?cb=20240225172723",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 223,
+      "display": "Re：End of a Dream",
+      "title": "Re：End_of_a_Dream",
+      "jackets": [
+        {
+          "source_file": "File:ReEnd of a Dream jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/ReEnd_of_a_Dream_jacket.png/revision/latest?cb=20240225172844",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 224,
+      "display": "心の記憶",
+      "title": "心の記憶",
+      "jackets": [
+        {
+          "source_file": "File:心の記憶 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7b/%E5%BF%83%E3%81%AE%E8%A8%98%E6%86%B6_jacket.png/revision/latest?cb=20240904043221",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 225,
+      "display": "Spotlight",
+      "title": "Spotlight",
+      "jackets": [
+        {
+          "source_file": "File:Spotlight jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/47/Spotlight_jacket.png/revision/latest?cb=20240904043124",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 226,
+      "display": "NightTheater",
+      "title": "NightTheater",
+      "jackets": [
+        {
+          "source_file": "File:NightTheater jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3d/NightTheater_jacket.png/revision/latest?cb=20240904043111",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 227,
+      "display": "Ramification",
+      "title": "Ramification",
+      "jackets": [
+        {
+          "source_file": "File:Ramification jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/fd/Ramification_jacket.png/revision/latest?cb=20240904043149",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 228,
+      "display": "Der Richter",
+      "title": "Der_Richter",
+      "jackets": [
+        {
+          "source_file": "File:Der Richter jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/12/Der_Richter_jacket.png/revision/latest?cb=20240904042940",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 229,
+      "display": "ATHAZA",
+      "title": "ATHAZA",
+      "jackets": [
+        {
+          "source_file": "File:ATHAZA jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c1/ATHAZA_jacket.png/revision/latest?cb=20240904043206",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 230,
+      "display": "The Whole Rest",
+      "title": "The_Whole_Rest",
+      "jackets": [
+        {
+          "source_file": "File:The Whole Rest jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/79/The_Whole_Rest_jacket.png/revision/latest?cb=20251123072435",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "display": "Cristalisia",
+      "title": "Cristalisia",
+      "jackets": [
+        {
+          "source_file": "File:Cristalisia jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/41/Cristalisia_jacket.png/revision/latest?cb=20251123072355",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 232,
+      "display": "Hydra",
+      "title": "Hydra",
+      "jackets": [
+        {
+          "source_file": "File:Hydra jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0e/Hydra_jacket.png/revision/latest?cb=20251123072530",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "display": "Alb",
+      "title": "Alb",
+      "jackets": [
+        {
+          "source_file": "File:Alb jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2b/Alb_jacket.png/revision/latest?cb=20260116184104",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 234,
+      "display": "Incyde",
+      "title": "Incyde",
+      "jackets": [
+        {
+          "source_file": "File:Incyde jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f8/Incyde_jacket.png/revision/latest?cb=20260116184045",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 235,
+      "display": "彩",
+      "title": "彩",
+      "jackets": [
+        {
+          "source_file": "File:彩 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3c/%E5%BD%A9_jacket.png/revision/latest?cb=20260116184117",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 236,
+      "display": "Xep+ion",
+      "title": "Xep+ion",
+      "jackets": [
+        {
+          "source_file": "File:Xep+ion jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b1/Xep%2Bion_jacket.png/revision/latest?cb=20251031120612",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 237,
+      "display": "Archidoxen",
+      "title": "Archidoxen",
+      "jackets": [
+        {
+          "source_file": "File:Archidoxen jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/81/Archidoxen_jacket.png/revision/latest?cb=20251031120633",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 238,
+      "display": "百鬼֎夜行",
+      "title": "百鬼֎夜行",
+      "jackets": [
+        {
+          "source_file": "File:百鬼֎夜行 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e2/%E7%99%BE%E9%AC%BC%D6%8E%E5%A4%9C%E8%A1%8C_jacket.png/revision/latest?cb=20251031120439",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 239,
+      "display": "アンビバレンス",
+      "title": "アンビバレンス",
+      "jackets": [
+        {
+          "source_file": "File:アンビバレンス jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/35/%E3%82%A2%E3%83%B3%E3%83%93%E3%83%90%E3%83%AC%E3%83%B3%E3%82%B9_jacket.png/revision/latest?cb=20250921040339",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 240,
+      "display": "Komplexe",
+      "title": "Komplexe",
+      "jackets": [
+        {
+          "source_file": "File:Komplexe jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/d5/Komplexe_jacket.png/revision/latest?cb=20250921040436",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "display": "sølips",
+      "title": "Sølips",
+      "jackets": [
+        {
+          "source_file": "File:Sølips jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/74/S%C3%B8lips_jacket.png/revision/latest?cb=20250921040518",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 242,
+      "display": "QZKago Requiem",
+      "title": "QZKago_Requiem",
+      "jackets": [
+        {
+          "source_file": "",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/53/QZKago_Requiem_jacket.png/revision/latest?cb=20250921040257",
+          "label": "current",
+          "width": null,
+          "height": null,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 243,
+      "display": "Radiance",
+      "title": "Radiance",
+      "jackets": [
+        {
+          "source_file": "File:Radiance jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/06/Radiance_jacket.png/revision/latest?cb=20250606125430",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 244,
+      "display": "Diamond Dust",
+      "title": "Diamond_Dust",
+      "jackets": [
+        {
+          "source_file": "File:Diamond Dust jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/49/Diamond_Dust_jacket.png/revision/latest?cb=20250606125510",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 245,
+      "display": "Stardust:RAY",
+      "title": "Stardust:RAY",
+      "jackets": [
+        {
+          "source_file": "File:Stardust RAY jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/05/Stardust_RAY_jacket.png/revision/latest?cb=20250606125607",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 246,
+      "display": "Aphrodite's Child (short ver.)",
+      "title": "Aphrodite's_Child_(short_ver.)",
+      "jackets": [
+        {
+          "source_file": "File:Aphrodite's Child (short ver.) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1a/Aphrodite%27s_Child_%28short_ver.%29_jacket.png/revision/latest?cb=20250418105344",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Aphrodite's Child (short ver.) new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/99/Aphrodite%27s_Child_%28short_ver.%29_new_jacket.png/revision/latest?cb=20251123072640",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 247,
+      "display": "DevIAtiOn (short ver.)",
+      "title": "DevIAtiOn_(short_ver.)",
+      "jackets": [
+        {
+          "source_file": "File:DevIAtiOn (short ver.) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/62/DevIAtiOn_%28short_ver.%29_jacket.png/revision/latest?cb=20250418105437",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "display": "NO x",
+      "title": "NO_x",
+      "jackets": [
+        {
+          "source_file": "File:NO x jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/02/NO_x_jacket.png/revision/latest?cb=20250418105525",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 249,
+      "display": "Silence is Golden, Speech is Golden",
+      "title": "Silence_is_Golden,_Speech_is_Golden",
+      "jackets": [
+        {
+          "source_file": "File:Silence is Golden, Speech is Golden jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0a/Silence_is_Golden%2C_Speech_is_Golden_jacket.png/revision/latest?cb=20231110145701",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 250,
+      "display": "Fractured Angel",
+      "title": "Fractured_Angel",
+      "jackets": [
+        {
+          "source_file": "File:Fractured Angel jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3d/Fractured_Angel_jacket.png/revision/latest?cb=20231028101824",
+          "label": "current",
+          "width": 1280,
+          "height": 720,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "display": "Resolver",
+      "title": "Resolver",
+      "jackets": [
+        {
+          "source_file": "File:Resolver jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ad/Resolver_jacket.png/revision/latest?cb=20250401032213",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 252,
+      "display": "Luminous Entities Lost Heart",
+      "title": "Luminous_Entities_Lost_Heart",
+      "jackets": [
+        {
+          "source_file": "File:Luminous Entities Lost Heart jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/da/Luminous_Entities_Lost_Heart_jacket.png/revision/latest?cb=20250401032424",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 253,
+      "display": "KIZUNA Resolution",
+      "title": "KIZUNA_Resolution",
+      "jackets": [
+        {
+          "source_file": "File:KIZUNA Resolution jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a2/KIZUNA_Resolution_jacket.png/revision/latest?cb=20250401032256",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 254,
+      "display": "AbsoluTe disoRdeR",
+      "title": "AbsoluTe_disoRdeR",
+      "jackets": [
+        {
+          "source_file": "File:AbsoluTe disoRdeR jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5a/AbsoluTe_disoRdeR_jacket.png/revision/latest?cb=20250401031126",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 255,
+      "display": "君往何处 (Quo Vadis)",
+      "title": "君往何处_(Quo_Vadis)",
+      "jackets": [
+        {
+          "source_file": "File:君往何处 (Quo Vadis) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1a/%E5%90%9B%E5%BE%80%E4%BD%95%E5%A4%84_%28Quo_Vadis%29_jacket.png/revision/latest?cb=20240818054044",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 256,
+      "display": "暗夜苏醒 (REANIMATE)",
+      "title": "暗夜苏醒_(REANIMATE)",
+      "jackets": [
+        {
+          "source_file": "File:暗夜苏醒 (REANIMATE) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1f/%E6%9A%97%E5%A4%9C%E8%8B%8F%E9%86%92_%28REANIMATE%29_jacket.png/revision/latest?cb=20240818054020",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 257,
+      "display": "黄金之城 (GOLD TOWN)",
+      "title": "黄金之城_(GOLD_TOWN)",
+      "jackets": [
+        {
+          "source_file": "File:黄金之城 (GOLD TOWN) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7e/%E9%BB%84%E9%87%91%E4%B9%8B%E5%9F%8E_%28GOLD_TOWN%29_jacket.png/revision/latest?cb=20241022165805",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 258,
+      "display": "双重间谍 (Double Agent)",
+      "title": "双重间谍_(Double_Agent)",
+      "jackets": [
+        {
+          "source_file": "File:双重间谍 (Double Agent) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8c/%E5%8F%8C%E9%87%8D%E9%97%B4%E8%B0%8D_%28Double_Agent%29_jacket.png/revision/latest?cb=20241022165819",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 259,
+      "display": "幻影鬼魅 (PLEASE)",
+      "title": "幻影鬼魅_(PLEASE)",
+      "jackets": [
+        {
+          "source_file": "File:幻影鬼魅 (PLEASE) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b4/%E5%B9%BB%E5%BD%B1%E9%AC%BC%E9%AD%85_%28PLEASE%29_jacket.png/revision/latest?cb=20241022165833",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 260,
+      "display": "Cuvism³",
+      "title": "Cuvism³",
+      "jackets": [
+        {
+          "source_file": "File:Cuvism³ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/2c/Cuvism%C2%B3_jacket.png/revision/latest?cb=20240729060329",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 261,
+      "display": "iL-Artifact",
+      "title": "IL-Artifact",
+      "jackets": [
+        {
+          "source_file": "File:IL-Artifact jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/56/IL-Artifact_jacket.png/revision/latest?cb=20240729060228",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 262,
+      "display": "a truth seeker -Communication with Utopia will be lost-",
+      "title": "A_truth_seeker_-Communication_with_Utopia_will_be_lost-",
+      "jackets": [
+        {
+          "source_file": "File:A truth seeker -Communication with Utopia will be lost- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7d/A_truth_seeker_-Communication_with_Utopia_will_be_lost-_jacket.png/revision/latest?cb=20240729060300",
+          "label": "current",
+          "width": 1536,
+          "height": 808,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 263,
+      "display": "幽世桔梗",
+      "title": "幽世桔梗",
+      "jackets": [
+        {
+          "source_file": "File:幽世桔梗 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/57/%E5%B9%BD%E4%B8%96%E6%A1%94%E6%A2%97_jacket.png/revision/latest?cb=20240705082315",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 264,
+      "display": "千紫万紅",
+      "title": "千紫万紅",
+      "jackets": [
+        {
+          "source_file": "File:千紫万紅 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/cd/%E5%8D%83%E7%B4%AB%E4%B8%87%E7%B4%85_jacket.png/revision/latest?cb=20240705081753",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 265,
+      "display": "明鏡烈火",
+      "title": "明鏡烈火",
+      "jackets": [
+        {
+          "source_file": "File:明鏡烈火 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8f/%E6%98%8E%E9%8F%A1%E7%83%88%E7%81%AB_jacket.png/revision/latest?cb=20240705083752",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 266,
+      "display": "零號車輛",
+      "title": "零號車輛",
+      "jackets": [
+        {
+          "source_file": "File:零號車輛 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/11/%E9%9B%B6%E8%99%9F%E8%BB%8A%E8%BC%9B_jacket.png/revision/latest?cb=20230402150316",
+          "label": "v1",
+          "width": 942,
+          "height": 497,
+          "selected": true
+        },
+        {
+          "source_file": "File:零號車輛 new jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9f/%E9%9B%B6%E8%99%9F%E8%BB%8A%E8%BC%9B_new_jacket.png/revision/latest?cb=20231104104710",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 267,
+      "display": "Xenolith",
+      "title": "Xenolith",
+      "jackets": [
+        {
+          "source_file": "File:Xenolith jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f2/Xenolith_jacket.png/revision/latest?cb=20240411180405",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 268,
+      "display": "Artificial Existence",
+      "title": "Artificial_Existence",
+      "jackets": [
+        {
+          "source_file": "File:Artificial Existence jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ea/Artificial_Existence_jacket.png/revision/latest?cb=20240411180350",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 269,
+      "display": "Indelible Scar",
+      "title": "Indelible_Scar",
+      "jackets": [
+        {
+          "source_file": "File:Indelible Scar jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/6/6d/Indelible_Scar_jacket.png/revision/latest?cb=20240411180336",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 270,
+      "display": "月詠に鳴る",
+      "title": "月詠に鳴る",
+      "jackets": [
+        {
+          "source_file": "File:月詠に鳴る jacket.webp",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e1/%E6%9C%88%E8%A9%A0%E3%81%AB%E9%B3%B4%E3%82%8B_jacket.webp/revision/latest?cb=20240901062917",
+          "label": "current",
+          "width": 1256,
+          "height": 662,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 271,
+      "display": "TECHNOPOLIS 2085",
+      "title": "TECHNOPOLIS_2085",
+      "jackets": [
+        {
+          "source_file": "File:TECHNOPOLIS 2085 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/31/TECHNOPOLIS_2085_jacket.png/revision/latest?cb=20240102171610",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 272,
+      "display": "祈 -我ら神祖と共に歩む者なり-",
+      "title": "祈_-我ら神祖と共に歩む者なり-",
+      "jackets": [
+        {
+          "source_file": "File:祈 -我ら神祖と共に歩む者なり- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/b5/%E7%A5%88_-%E6%88%91%E3%82%89%E7%A5%9E%E7%A5%96%E3%81%A8%E5%85%B1%E3%81%AB%E6%AD%A9%E3%82%80%E8%80%85%E3%81%AA%E3%82%8A-_jacket.png/revision/latest?cb=20240102171621",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 273,
+      "display": "テリトリーバトル",
+      "title": "テリトリーバトル",
+      "jackets": [
+        {
+          "source_file": "File:テリトリーバトル jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/58/%E3%83%86%E3%83%AA%E3%83%88%E3%83%AA%E3%83%BC%E3%83%90%E3%83%88%E3%83%AB_jacket.png/revision/latest?cb=20240102171508",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 274,
+      "display": "玩具狂奏曲 -終焉-",
+      "title": "玩具狂奏曲_-終焉-",
+      "jackets": [
+        {
+          "source_file": "File:玩具狂奏曲 -終焉- jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/75/%E7%8E%A9%E5%85%B7%E7%8B%82%E5%A5%8F%E6%9B%B2_-%E7%B5%82%E7%84%89-_jacket.png/revision/latest?cb=20260517113024",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 275,
+      "display": "Journey with You",
+      "title": "Journey_with_You",
+      "jackets": [
+        {
+          "source_file": "File:Journey with You jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3d/Journey_with_You_jacket.png/revision/latest?cb=20231202183731",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 276,
+      "display": "Secret Illumination",
+      "title": "Secret_Illumination",
+      "jackets": [
+        {
+          "source_file": "File:Secret Illumination jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/bd/Secret_Illumination_jacket.png/revision/latest?cb=20231202183717",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 277,
+      "display": "Inverted World",
+      "title": "Inverted_World",
+      "jackets": [
+        {
+          "source_file": "File:Inverted World jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/47/Inverted_World_jacket.png/revision/latest?cb=20231120175718",
+          "label": "current",
+          "width": 1728,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 278,
+      "display": "ストレイソウル・アラウンド",
+      "title": "ストレイソウル・アラウンド",
+      "jackets": [
+        {
+          "source_file": "File:ストレイソウル・アラウンド jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/76/%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%82%BD%E3%82%A6%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89_jacket.png/revision/latest?cb=20240120144635",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 279,
+      "display": "Manifold Hypothesis",
+      "title": "Manifold_Hypothesis",
+      "jackets": [
+        {
+          "source_file": "File:Manifold Hypothesis jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9c/Manifold_Hypothesis_jacket.png/revision/latest?cb=20240120144611",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "display": "K.Moe (VIP)",
+      "title": "K.Moe_(VIP)",
+      "jackets": [
+        {
+          "source_file": "File:K.Moe (VIP) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0c/K.Moe_%28VIP%29_jacket.png/revision/latest?cb=20240120144543",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 281,
+      "display": "S.A.T.E.L.L.I.T.E.",
+      "title": "S.A.T.E.L.L.I.T.E.",
+      "jackets": [
+        {
+          "source_file": "File:S.A.T.E.L.L.I.T.E. jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/ff/S.A.T.E.L.L.I.T.E._jacket.png/revision/latest?cb=20230831153741",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "display": "Dance with Silence",
+      "title": "Dance_with_Silence",
+      "jackets": [
+        {
+          "source_file": "File:Dance with Silence jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/ed/Dance_with_Silence_jacket.png/revision/latest?cb=20230831153828",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 283,
+      "display": "Labyrinth in Kowloon: Walled World",
+      "title": "Labyrinth_in_Kowloon:_Walled_World",
+      "jackets": [
+        {
+          "source_file": "File:Labyrinth in Kowloon Walled World jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/4d/Labyrinth_in_Kowloon_Walled_World_jacket.png/revision/latest?cb=20230831154046",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 284,
+      "display": "Compute It With Some Devilish Alcoholic Steampunk Engines",
+      "title": "Compute_It_With_Some_Devilish_Alcoholic_Steampunk_Engines",
+      "jackets": [
+        {
+          "source_file": "File:Compute It With Some Devilish Alcoholic Steampunk Engines jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f7/Compute_It_With_Some_Devilish_Alcoholic_Steampunk_Engines_jacket.png/revision/latest?cb=20230831153812",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 285,
+      "display": "+ERABY+E CONNEC+10N",
+      "title": "+ERABY+E_CONNEC+10N",
+      "jackets": [
+        {
+          "source_file": "File:+ERABY+E CONNEC+10N jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0e/%2BERABY%2BE_CONNEC%2B10N_jacket.png/revision/latest?cb=20230831153846",
+          "label": "current",
+          "width": 1366,
+          "height": 718,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 286,
+      "display": "神話",
+      "title": "神話",
+      "jackets": [
+        {
+          "source_file": "File:神話 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/84/%E7%A5%9E%E8%A9%B1_jacket.png/revision/latest?cb=20230610145521",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 287,
+      "display": "El último baile",
+      "title": "El_último_baile",
+      "jackets": [
+        {
+          "source_file": "File:El último baile jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/El_%C3%BAltimo_baile_jacket.png/revision/latest?cb=20230610145633",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 288,
+      "display": "Trojan",
+      "title": "Trojan",
+      "jackets": [
+        {
+          "source_file": "File:Trojan jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0d/Trojan_jacket.png/revision/latest?cb=20230610145633",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 289,
+      "display": "Temporal Shifting",
+      "title": "Temporal_Shifting",
+      "jackets": [
+        {
+          "source_file": "File:Temporal Shifting jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7c/Temporal_Shifting_jacket.png/revision/latest?cb=20230610145644",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 290,
+      "display": "Ad astra per aspera",
+      "title": "Ad_astra_per_aspera",
+      "jackets": [
+        {
+          "source_file": "File:Ad astra per aspera jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/Ad_astra_per_aspera_jacket.png/revision/latest?cb=20230610145658",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 291,
+      "display": "A journey to the moonlight",
+      "title": "A_journey_to_the_moonlight",
+      "jackets": [
+        {
+          "source_file": "File:A journey to the moonlight jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/72/A_journey_to_the_moonlight_jacket.png/revision/latest?cb=20230610145702",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 292,
+      "display": "盏茗",
+      "title": "盏茗",
+      "jackets": [
+        {
+          "source_file": "File:盏茗 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/58/%E7%9B%8F%E8%8C%97_jacket.png/revision/latest?cb=20221014164444",
+          "label": "current",
+          "width": 2025,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 293,
+      "display": "青芽",
+      "title": "青芽",
+      "jackets": [
+        {
+          "source_file": "File:青芽 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/06/%E9%9D%92%E8%8A%BD_jacket.png/revision/latest?cb=20221014164405",
+          "label": "current",
+          "width": 1026,
+          "height": 546,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 294,
+      "display": "瓷岁",
+      "title": "瓷岁",
+      "jackets": [
+        {
+          "source_file": "File:瓷岁 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/dd/%E7%93%B7%E5%B2%81_jacket.png/revision/latest?cb=20230122130100",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 295,
+      "display": "Feast远东之宴",
+      "title": "Feast远东之宴",
+      "jackets": [
+        {
+          "source_file": "File:Feast远东之宴 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c6/Feast%E8%BF%9C%E4%B8%9C%E4%B9%8B%E5%AE%B4_jacket.png/revision/latest?cb=20230121192731",
+          "label": "current",
+          "width": 1728,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "display": "Shadow",
+      "title": "Shadow",
+      "jackets": [
+        {
+          "source_file": "File:Shadow jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/86/Shadow_jacket.png/revision/latest?cb=20210305094859",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 297,
+      "display": "心之所向",
+      "title": "心之所向",
+      "jackets": [
+        {
+          "source_file": "File:心之所向.jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/28/%E5%BF%83%E4%B9%8B%E6%89%80%E5%90%91.jpg/revision/latest?cb=20220901102753",
+          "label": "current",
+          "width": 2044,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 298,
+      "display": "inferior",
+      "title": "Inferior",
+      "jackets": [
+        {
+          "source_file": "File:Inferior .jpg",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1b/Inferior_.jpg/revision/latest?cb=20220901102813",
+          "label": "current",
+          "width": 2034,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 299,
+      "display": "Anomaly",
+      "title": "Anomaly",
+      "jackets": [
+        {
+          "source_file": "File:Anomaly jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a3/Anomaly_jacket.png/revision/latest?cb=20210305094754",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 300,
+      "display": "Destination",
+      "title": "Destination",
+      "jackets": [
+        {
+          "source_file": "File:Destination jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/9b/Destination_jacket.png/revision/latest?cb=20210305094835",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 301,
+      "display": "Apocalypse",
+      "title": "Apocalypse",
+      "jackets": [
+        {
+          "source_file": "File:Apocalypse jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c8/Apocalypse_jacket.png/revision/latest?cb=20220610115645",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 302,
+      "display": "Protoflicker",
+      "title": "Protoflicker",
+      "jackets": [
+        {
+          "source_file": "File:Protoflicker jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3c/Protoflicker_jacket.png/revision/latest?cb=20220610115634",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 303,
+      "display": "Horizon Blue",
+      "title": "Horizon_Blue",
+      "jackets": [
+        {
+          "source_file": "File:Horizon Blue jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/c/c8/Horizon_Blue_jacket.png/revision/latest?cb=20220610115623",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 304,
+      "display": "You are the Miserable",
+      "title": "You_are_the_Miserable",
+      "jackets": [
+        {
+          "source_file": "File:You Are The Miserable jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/38/You_Are_The_Miserable_jacket.png/revision/latest?cb=20220610115604",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 305,
+      "display": "Stasis",
+      "title": "Stasis",
+      "jackets": [
+        {
+          "source_file": "File:Stasis jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/ab/Stasis_jacket.png/revision/latest?cb=20220610115541",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 306,
+      "display": "Time to Night Sky (feat. Lee Yu Jin)",
+      "title": "Time_to_Night_Sky_(feat._Lee_Yu_Jin)",
+      "jackets": [
+        {
+          "source_file": "File:Time to Night Sky (feat. Lee Yu Jin) jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0a/Time_to_Night_Sky_%28feat._Lee_Yu_Jin%29_jacket.png/revision/latest?cb=20211224200920",
+          "label": "current",
+          "width": 942,
+          "height": 498,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 307,
+      "display": "HAZARD",
+      "title": "HAZARD",
+      "jackets": [
+        {
+          "source_file": "File:HAZARD jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/f/f4/HAZARD_jacket.png/revision/latest?cb=20211225114917",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 308,
+      "display": "Another Me",
+      "title": "Another_Me_(D_AAN)",
+      "jackets": [
+        {
+          "source_file": "File:Another Me D AAN jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e8/Another_Me_D_AAN_jacket.png/revision/latest?cb=20211225114948",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 309,
+      "display": "Don't Never Around",
+      "title": "Dont_Never_Around",
+      "jackets": [
+        {
+          "source_file": "File:Don't Never Around jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e7/Don%27t_Never_Around_jacket.png/revision/latest?cb=20211225114727",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 310,
+      "display": "RESSiSTANCE",
+      "title": "RESSiSTANCE",
+      "jackets": [
+        {
+          "source_file": "File:RESSiSTANCE jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a7/RESSiSTANCE_jacket.png/revision/latest?cb=20211225114157",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 311,
+      "display": "Flutter Echo",
+      "title": "Flutter_Echo",
+      "jackets": [
+        {
+          "source_file": "File:Flutter Echo jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/ba/Flutter_Echo_jacket.png/revision/latest?cb=20250905135924",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 312,
+      "display": "Re：birth",
+      "title": "Re：birth",
+      "jackets": [
+        {
+          "source_file": "File:Re：birth jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e6/Re%EF%BC%9Abirth_jacket.png/revision/latest?cb=20250905135325",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 313,
+      "display": "Avataar ~Reincarnation of Kalpa~",
+      "title": "Avataar_~Reincarnation_of_Kalpa~",
+      "jackets": [
+        {
+          "source_file": "File:Avataar ~Reincarnation of Kalpa~ jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/15/Avataar_~Reincarnation_of_Kalpa~_jacket.png/revision/latest?cb=20250905140008",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 315,
+      "display": "XING",
+      "title": "XING",
+      "jackets": [
+        {
+          "source_file": "File:XING jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a6/XING_jacket.png/revision/latest?cb=20210528132613",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 316,
+      "display": "Final Step!",
+      "title": "Final_Step!",
+      "jackets": [
+        {
+          "source_file": "File:Final Step! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/28/Final_Step%21_jacket.png/revision/latest?cb=20210528132427",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 317,
+      "display": "Cthugha",
+      "title": "Cthugha",
+      "jackets": [
+        {
+          "source_file": "File:Cthugha jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/5c/Cthugha_jacket.png/revision/latest?cb=20210528132552",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 318,
+      "display": "Initialize",
+      "title": "Initialize",
+      "jackets": [
+        {
+          "source_file": "File:Initialize jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/Initialize_jacket.png/revision/latest?cb=20210430095635",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 319,
+      "display": "桜樹街道",
+      "title": "桜樹街道",
+      "jackets": [
+        {
+          "source_file": "File:桜樹街道 jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/40/%E6%A1%9C%E6%A8%B9%E8%A1%97%E9%81%93_jacket.png/revision/latest?cb=20210430095743",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 320,
+      "display": "Get Ready!!",
+      "title": "Get_Ready!!",
+      "jackets": [
+        {
+          "source_file": "File:Get Ready!! jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/e/e4/Get_Ready%21%21_jacket.png/revision/latest?cb=20210430095504",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 321,
+      "display": "volcanic",
+      "title": "Volcanic",
+      "jackets": [
+        {
+          "source_file": "File:Volcanic jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/1d/Volcanic_jacket.png/revision/latest?cb=20210430095809",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 322,
+      "display": "GOODTEK",
+      "title": "GOODTEK",
+      "jackets": [
+        {
+          "source_file": "File:GOODTEK jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/5/54/GOODTEK_jacket.png/revision/latest?cb=20200717161954",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 323,
+      "display": "GOODBOUNCE",
+      "title": "GOODBOUNCE",
+      "jackets": [
+        {
+          "source_file": "File:GOODBOUNCE jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/2/24/GOODBOUNCE_jacket.png/revision/latest?cb=20200717162012",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 324,
+      "display": "GOODWORLD",
+      "title": "GOODWORLD",
+      "jackets": [
+        {
+          "source_file": "File:GOODWORLD jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/3/3e/GOODWORLD_jacket.png/revision/latest?cb=20200717162032",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 325,
+      "display": "GOODFORTUNE",
+      "title": "GOODFORTUNE",
+      "jackets": [
+        {
+          "source_file": "File:GOODFORTUNE jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/a/a6/GOODFORTUNE_jacket.png/revision/latest?cb=20200717162111",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 326,
+      "display": "GOODRAGE",
+      "title": "GOODRAGE",
+      "jackets": [
+        {
+          "source_file": "File:GOODRAGE jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/11/GOODRAGE_jacket.png/revision/latest?cb=20200717162227",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 327,
+      "display": "Infinity Heaven",
+      "title": "Infinity_Heaven",
+      "jackets": [
+        {
+          "source_file": "File:Infinity Heaven jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/79/Infinity_Heaven_jacket.png/revision/latest?cb=20200501091038",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 328,
+      "display": "Disorder",
+      "title": "Disorder",
+      "jackets": [
+        {
+          "source_file": "File:Disorder jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/7/7d/Disorder_jacket.png/revision/latest?cb=20200501091012",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 329,
+      "display": "CROSS†SOUL",
+      "title": "CROSS†SOUL",
+      "jackets": [
+        {
+          "source_file": "File:CROSS†SOUL jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/1/13/CROSS%E2%80%A0SOUL_jacket.png/revision/latest?cb=20200501090954",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 330,
+      "display": "Another Me",
+      "title": "Another_Me_(Neutral_Moon)",
+      "jackets": [
+        {
+          "source_file": "File:Another Me jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/4/46/Another_Me_jacket.png/revision/latest?cb=20200320103827",
+          "label": "v1",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        },
+        {
+          "source_file": "File:Another Me New.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/8/8f/Another_Me_New.png/revision/latest?cb=20220901102840",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 331,
+      "display": "mechanted",
+      "title": "Mechanted",
+      "jackets": [
+        {
+          "source_file": "File:Mechanted jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/02/Mechanted_jacket.png/revision/latest?cb=20200320103951",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 332,
+      "display": "life flashes before weeb eyes",
+      "title": "Life_flashes_before_weeb_eyes",
+      "jackets": [
+        {
+          "source_file": "File:Life flashes before weeb eyes jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/0/0d/Life_flashes_before_weeb_eyes_jacket.png/revision/latest?cb=20200320103934",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 333,
+      "display": "Break Through The Barrier",
+      "title": "Break_Through_The_Barrier",
+      "jackets": [
+        {
+          "source_file": "File:Break Through The Barrier jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/d/da/Break_Through_The_Barrier_jacket.png/revision/latest?cb=20200320103847",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 334,
+      "display": "Chronostasis",
+      "title": "Chronostasis",
+      "jackets": [
+        {
+          "source_file": "File:Chronostasis jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/9/97/Chronostasis_jacket.png/revision/latest?cb=20200320103915",
+          "label": "current",
+          "width": 2048,
+          "height": 1080,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "index": 335,
+      "display": "Oblivion: PHIN",
+      "title": "Oblivion:_PHIN",
+      "jackets": [
+        {
+          "source_file": "File:Oblivion- PHIN jacket.png",
+          "url": "https://static.wikia.nocookie.net/phigros/images/b/bc/Oblivion-_PHIN_jacket.png/revision/latest?cb=20260406124715",
+          "label": "current",
+          "width": 1200,
+          "height": 654,
+          "selected": true
+        }
+      ]
+    }
+  ]
+}

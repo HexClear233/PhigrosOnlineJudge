@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}排行榜- {{ contest.name }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>排行榜：{{ contest.name }}</h1>
+<p class="muted">
+  {{ "自选曲赛事" if contest.contest_type == "free_choice" else "课题曲赛事" }}
+  {% if contest.version %} · v{{ contest.version }}{% endif %}
+  {% if contest.contest_type == "free_choice" and contest.top_n %} · Top {{ contest.top_n }}{% endif %}
+</p>
+{% if contest.is_sealed and not is_admin %}
+  <div class="alert">榜单已封，具体成绩将在揭榜后公布。
+    {% if contest.seal_reveal_time %}预计 {{ contest.seal_reveal_time.strftime("%m-%d %H:%M") }} 自动揭榜。{% endif %}
+  </div>
+{% endif %}
+
+{% if contest.contest_type == "topic" %}
+<div class="table-wrap">
+<table class="table">
+  <thead>
+    <tr>
+      <th>排名</th><th>选手</th>
+      {% for s in songs %}
+        <th class="jacket-head{% if s.jacket %} with-jacket{% endif %}"{% if s.jacket %} style="background-image:url('{{ s.jacket }}')"{% endif %}
+            title="定数 {{ s.chart_level }}{% if s.weight != 1 %} ×{{ s.weight }}{% endif %}">
+          <span>{{ s.name }}<br><small>{{ s.difficulty }}</small></span>
+        </th>
+      {% endfor %}
+      <th>总分</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in rows %}
+    <tr>
+      <td>{{ row.rank }}</td>
+      <td>{{ row.user.display_name }}</td>
+      {% for cell in row.cells %}
+        <td class="cell">
+          {% if contest.is_sealed and not is_admin %}
+            ?
+          {% elif cell.rks is not none %}
+            {{ "%.4f"|format(cell.rks) }}
+          {% else %}
+            <span class="muted">--</span>
+          {% endif %}
+        </td>
+      {% endfor %}
+      <td class="total">{% if not (contest.is_sealed and not is_admin) %}{{ "%.4f"|format(row.total) }}{% else %}?{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<div class="table-wrap">
+<table class="table">
+  <thead>
+    <tr>
+      <th>排名</th><th>选手</th>
+      {% for c in columns %}
+        <th class="jacket-head-title">{{ c }}</th>
+      {% endfor %}
+      <th>总分</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in rows %}
+    <tr>
+      <td>{{ row.rank }}</td>
+      <td>{{ row.user.display_name }}</td>
+      {% for cell in row.cells %}
+        {% if cell.rks is not none and not (contest.is_sealed and not is_admin) %}
+          <td class="cell jacket-cell{% if cell.jacket %} with-jacket{% endif %}"
+              {% if cell.jacket %}style="background-image:url('{{ cell.jacket }}')"{% endif %}
+              title="{{ cell.song_name }} [{{ cell.difficulty }}]">
+            <span class="jacket-cell-inner">{{ "%.4f"|format(cell.rks) }}<br><small>{{ cell.difficulty }}</small></span>
+          </td>
+        {% elif contest.is_sealed and not is_admin %}
+          <td class="cell jacket-cell{% if cell.jacket %} with-jacket{% endif %}"{% if cell.jacket %} style="background-image:url('{{ cell.jacket }}')"{% endif %}>
+            <span class="jacket-cell-inner">?</span>
+          </td>
+        {% else %}
+          <td class="cell"><span class="muted">--</span></td>
+        {% endif %}
+      {% endfor %}
+      <td class="total">{% if not (contest.is_sealed and not is_admin) %}{{ "%.4f"|format(row.total) }}{% else %}?{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="muted" style="margin-top:10px;">总分 = 左侧 A~{{ columns|last }} 各曲 RKS 之和；每个选手按成绩从高到低填左空右。</p>
+{% endif %}
+{% if not rows %}<p class="muted">暂无成绩。</p>{% endif %}
+<div class="export-bar" style="margin-top:18px;">
+  <span style="margin-right:8px;color:var(--muted);">导出：</span>
+  <a class="btn btn-sm" href="/contests/{{ contest.id }}/leaderboard/export?format=markdown"
+     title="导出为 Markdown 表格（适合群内粘贴）">Markdown</a>
+  <a class="btn btn-sm" href="/contests/{{ contest.id }}/leaderboard/export?format=html"
+     title="导出为独立 HTML 页面">HTML</a>
+  <a class="btn btn-sm" href="/contests/{{ contest.id }}/leaderboard/export?format=image"
+     title="导出为 PNG 图片">PNG 图片</a>
+</div>
+<p><a href="/contests/{{ contest.id }}">返回赛事</a></p>
+{% endblock %}

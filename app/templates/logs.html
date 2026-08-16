@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block title %}识别日志 - {{ contest.name }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>OCR 识别日志：{{ contest.name }}</h1>
+<p class="muted">
+  记录本场比赛每次截图 OCR 识别的结果与选手选择。可对已上榜（通过）的成绩做“从榜单撤回”，
+  用于处理异常数据（如计算 RKS 偏高但选手选择直接录入）。
+</p>
+
+{% if logs %}
+<div class="table-wrap">
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>识别时间</th>
+      <th>选手</th>
+      <th>曲目</th>
+      <th>难度</th>
+      <th>定数</th>
+      <th>ACC</th>
+      <th>OCR-RKS</th>
+      <th>匹配</th>
+      <th>选手操作</th>
+      <th>成绩状态</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for l in logs %}
+    <tr>
+      <td>{{ l.id }}</td>
+      <td>{{ l.created_at.strftime("%m-%d %H:%M") }}</td>
+      <td>{{ l.user }}</td>
+      <td>
+        {{ l.song_name or "—" }}
+        {% if l.song_name_raw and l.song_name_raw != l.song_name %}<small class="muted">（{{ l.song_name_raw }}）</small>{% endif %}
+        {% if l.has_image %}<a href="{{ l.image_path }}" target="_blank" title="查看截图">🖼</a>{% endif %}
+      </td>
+      <td>{{ l.difficulty or "—" }}</td>
+      <td>{{ "%.1f"|format(l.chart_level) if l.chart_level is not none else "—" }}</td>
+      <td>{{ "%.2f"|format(l.accuracy) if l.accuracy is not none else "—" }}%</td>
+      <td>{{ "%.4f"|format(l.rks) if l.rks is not none else "—" }}{% if l.rks is not none and l.sub_rks and l.rks and l.sub_rks and l.rks > l.sub_rks + 0.001 %} <span class="badge badge-pending" title="OCR 计算 RKS 明显高于实际入榜 RKS">异常↑</span>{% endif %}</td>
+      <td>
+        {% if l.matched_ok %}✔ 已匹配{% else %}<span class="badge badge-err">未匹配</span>{% endif %}
+      </td>
+      <td>
+        {% if l.action == "confirm" %}直接入榜
+        {% elif l.action == "review" %}提交审核
+        {% elif l.status == "failed" %}<span class="badge badge-err">识别失败</span>
+        {% else %}<span class="badge badge-pending">未确认</span>{% endif %}
+      </td>
+      <td>
+        {% if l.withdrawn %}
+          <span class="badge badge-err">已撤回</span>
+          {% if l.withdraw_reason %}<small class="muted" title="{{ l.withdraw_reason }}">（{{ l.withdraw_reason }}）</small>{% endif %}
+        {% elif l.sub_status == "approved" %}
+          <span class="badge badge-ok">已上榜</span>
+          <small class="muted">RKS {{ "%.4f"|format(l.sub_rks) }}</small>
+        {% elif l.sub_status == "pending" %}
+          <span class="badge badge-pending">待审核</span>
+        {% elif l.sub_status == "rejected" %}
+          <span class="badge badge-err">已驳回</span>
+        {% else %}
+          <span class="muted">—</span>
+        {% endif %}
+      </td>
+      <td class="log-actions">
+        {% if l.withdrawn %}
+          <form method="post" action="/contests/{{ l.contest_id }}/logs/{{ l.id }}/restore" class="inline">
+            <button type="submit" class="linklike btn" style="background:#176b3d;">恢复入榜</button>
+          </form>
+        {% elif l.sub_status == "approved" %}
+          <form method="post" action="/contests/{{ l.contest_id }}/logs/{{ l.id }}/withdraw" class="inline">
+            <input type="text" name="reason" placeholder="撤回原因（可留空）" style="width:120px;margin:0;">
+            <button type="submit" style="background:#a33;">撤回</button>
+          </form>
+        {% endif %}
+        <button type="button" class="btn edit-log" data-row="edit-{{ l.id }}" style="background:#555;">修正</button>
+      </td>
+    </tr>
+    {% if l.warnings %}
+    <tr><td colspan="12" class="muted" style="font-size:12px;">告警：{{ l.warnings }}</td></tr>
+    {% endif %}
+    <tr class="edit-row" id="edit-{{ l.id }}" style="display:none;">
+      <td colspan="12">
+        <form method="post" action="/contests/{{ l.contest_id }}/logs/{{ l.id }}/edit" class="stack log-edit">
+          <p class="hint">修正识别错误（重点为曲名识别错误）；留空的字段保持不变，原始 OCR 值保留用于对比。</p>
+          <div class="row chart-filters">
+            <label>曲名<input type="text" name="song_name" value="{{ l.song_name or '' }}" placeholder="正确曲名"></label>
+            <label>难度<input type="text" name="difficulty" value="{{ l.difficulty or '' }}" placeholder="EZ/HD/IN/AT/SP"></label>
+            <label>谱面定数<input type="number" name="chart_level" step="0.1" value="{{ l.chart_level if l.chart_level is not none else '' }}" placeholder="如 16.1"></label>
+            <label>ACC %<input type="number" name="accuracy" step="0.01" value="{{ l.accuracy if l.accuracy is not none else '' }}"></label>
+            <label>分数<input type="number" name="score" value="{{ l.score if l.score is not none else '' }}"></label>
+          </div>
+          <div class="actions">
+            <button type="submit" style="background:#4f7a3a;">保存修正</button>
+            <button type="button" class="btn mute" data-close="edit-{{ l.id }}">取消</button>
+          </div>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="muted">该赛事尚无 OCR 识别日志。</p>
+{% endif %}
+<p><a href="/contests/{{ contest.id }}">返回赛事</a></p>
+
+<script>
+document.querySelectorAll('.edit-log').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const row = document.getElementById(btn.dataset.row);
+    if (row) row.style.display = row.style.display === 'none' ? '' : 'none';
+  });
+});
+document.querySelectorAll('[data-close]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const row = document.getElementById(btn.dataset.close);
+    if (row) row.style.display = 'none';
+  });
+});
+</script>
+{% endblock %}

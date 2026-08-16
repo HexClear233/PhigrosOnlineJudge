@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ contest.name }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>{{ contest.name }}</h1>
+<p class="muted">
+  {{ "自选曲赛事" if contest.contest_type == "free_choice" else "课题曲赛事" }} ·
+  版本 {{ contest.version or "—" }} ·
+  {{ contest.start_time.strftime("%Y-%m-%d %H:%M") }} ~ {{ contest.end_time.strftime("%Y-%m-%d %H:%M") }}
+  {% if contest.contest_type == "free_choice" and contest.top_n %} · Top {{ contest.top_n }}{% endif %}
+  {% if contest.is_sealed %}
+    · <b>已封榜</b>
+    {% if contest.seal_reveal_time %}<span class="muted">（预计 {{ contest.seal_reveal_time.strftime("%Y-%m-%d %H:%M") }} 自动揭榜）</span>{% endif %}
+  {% endif %}
+</p>
+{% if contest.description %}<p>{{ contest.description }}</p>{% endif %}
+
+{% if contest.contest_type == "topic" %}
+<h2>课题曲</h2>
+{% if contest.songs %}
+<div class="table-wrap">
+<table class="table">
+  <thead><tr><th>难度</th><th>曲目</th><th>定数</th><th>权重</th></tr></thead>
+  <tbody>
+    {% for cs in contest.songs %}
+    <tr>
+      <td>
+        {% if jackets.get(cs.song.name) %}
+          <img class="pick-thumb" src="{{ jackets[cs.song.name] }}" alt="" style="margin-right:6px;vertical-align:middle;">
+        {% endif %}
+        {{ cs.difficulty }}
+      </td>
+      <td>{{ cs.song.name }}</td>
+      <td>{{ cs.chart_level }}</td>
+      <td>{{ cs.weight }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="muted">尚未配置课题曲。</p>
+{% endif %}
+{% endif %}
+
+<div class="actions">
+  {% if user and contest.is_open %}<a class="btn" href="/contests/{{ contest.id }}/submit">提交成绩</a>{% endif %}
+  <a class="btn ghost" href="/contests/{{ contest.id }}/leaderboard">查看排行榜</a>
+  {% if user and (user.is_admin or contest.created_by == user.id) %}
+    <a class="btn ghost" href="/contests/{{ contest.id }}/review">成绩审核</a>
+    <a class="btn ghost" href="/contests/{{ contest.id }}/logs">识别日志</a>
+  {% endif %}
+  {% if user and user.is_admin %}
+    {% if contest.is_sealed %}
+      {% if contest.seal_reveal_time %}
+        <span class="muted">将于 {{ contest.seal_reveal_time.strftime("%m-%d %H:%M") }} 自动揭榜</span>
+      {% else %}
+        <span class="muted">未设定自动揭榜时间，需手动揭榜</span>
+      {% endif %}
+      <form method="post" action="/contests/{{ contest.id }}/reveal" class="inline"><button type="submit">立即揭榜</button></form>
+    {% else %}
+      <form method="post" action="/contests/{{ contest.id }}/seal" class="inline">
+        <label class="muted" for="seal-reveal">自动揭榜时间（可选）：</label>
+        <input type="datetime-local" id="seal-reveal" name="reveal_time">
+        <button type="submit">封榜</button>
+      </form>
+    {% endif %}
+  {% endif %}
+</div>
+{% endblock %}

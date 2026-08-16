@@ -1,0 +1,73 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env*
+
+# ---- 运行时数据（本地生成，不入库）----
+# SQLite 数据库
+*.db
+*.sqlite
+*.sqlite3
+# 上传截图 / 日志
+data/uploads/
+data/*.log
+data/*.log.*
+# 端到端测试库与日志
+data/e2e_test.db
+data/e2e_server.log
+
+# ---- OCR / Paddle 运行时缓存 ----
+.paddlex/
+*.pdmodel
+*.pdiparams
+.paddlex_cache/
+
+# ---- 曲绘抓取产物（涉及版权，且体量大，不入库）----
+Illu_Scrapy/jackets/
+Illu_Scrapy/jackets_report.json
+Illu_Scrapy/songlist_output.html
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- 其他 ---
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+./批注.md
+./详细设计说明书.md
+./项目计划书.md

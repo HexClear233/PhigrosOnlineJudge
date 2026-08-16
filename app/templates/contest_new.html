@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+{% block title %}创建赛事 - Phigros OJ{% endblock %}
+{% block content %}
+<h1>创建赛事</h1>
+<form method="post" action="/contests/new" class="card">
+  <label>赛事名称 <input type="text" name="name" required></label>
+  <label>描述 <textarea name="description" rows="2"></textarea></label>
+  <label>游戏版本
+    <select name="version">
+      {% for v in versions %}
+        <option value="{{ v }}" {% if v == default_version %}selected{% endif %}>Phigros v{{ v }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>赛事类型
+    <select name="contest_type" id="contest_type">
+      <option value="topic">课题曲赛事（指定曲目）</option>
+      <option value="free_choice">自选曲赛事（取前 N 个 RKS）</option>
+    </select>
+  </label>
+  <div class="row">
+    <label>开始时间 <input type="datetime-local" name="start_time" required></label>
+    <label>结束时间 <input type="datetime-local" name="end_time" required></label>
+  </div>
+  <label id="top_n_row">自选曲阈值 N <input type="number" name="top_n" min="1" value="5" disabled></label>
+
+  <div id="songs_row">
+    <h2 style="font-size:16px;">课题曲选曲</h2>
+    <p class="muted">按曲名搜索，点击难度加入右侧“已选窗口”；已选曲目可独立查看与移除。</p>
+    <div class="picker">
+      <div class="picker-pane">
+        <label class="search">
+          <span class="muted">按曲名搜索</span>
+          <input type="text" id="pick_q" placeholder="输入曲名…" oninput="renderPicker()">
+        </label>
+        <div class="picker-list" id="pick_list">
+          {% for s in songs %}
+          <div class="pick-song" data-name="{{ s.name }}" data-name-lc="{{ (s.name|lower) }}">
+            <div class="pick-song-head">
+              {% if jackets.get(s.name) %}<img class="pick-thumb" src="{{ jackets[s.name] }}" alt="">{% endif %}
+              <span class="pick-song-name">{{ s.name }}</span>
+            </div>
+            <div class="pick-diffs">
+              {% for diff in ["EZ", "HD", "IN", "AT", "SP"] %}
+                {% set lv = s.level_of(diff) %}
+                {% if lv is not none %}
+                  <button type="button" class="pick-diff" data-value="{{ s.id }}:{{ diff }}"
+                          data-song="{{ s.name }}" data-diff="{{ diff }}" data-level="{{ lv }}">{{ diff }} {{ lv }}</button>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="picker-pane picker-selected">
+        <div class="picker-selected-head">
+          <span>已选窗口</span>
+          <span class="muted" id="pick_count"></span>
+        </div>
+        <div class="picker-list" id="pick_selected"></div>
+        <p class="muted" id="pick_empty">尚未选择课题曲</p>
+        <label class="show-jackets"><input type="checkbox" id="pick_show_jacket" checked> 显示曲绘</label>
+      </div>
+    </div>
+    <!-- 提交用：隐藏的多选 select，用于承载所选谱面 -->
+    <select name="songs" id="songs_submit" multiple hidden></select>
+    <button id="clear_all" type="button" class="btn muted">清空已选</button>
+  </div>
+
+  <button type="submit">创建</button>
+</form>
+
+<script>
+const CHARTS = {{ charts | tojson }};
+const JACKETS = {{ jackets | tojson }};
+const DIFF_ORDER = {"EZ":0,"HD":1,"IN":2,"AT":3,"SP":4};
+const selected = new Map(); // value -> {song_name,difficulty,chart_level}
+
+function selOpt(value){ return document.getElementById('songs_submit').querySelector(`option[value="${CSS.escape(value)}"]`); }
+
+function selectChart(value, song, diff, level){
+  if (selected.has(value)) return;
+  const submit = document.getElementById('songs_submit');
+  const opt = document.createElement('option');
+  opt.value = value; opt.selected = true; opt.text = `${song} [${diff}]`;
+  submit.appendChild(opt);
+  selected.set(value, {song_name:song,difficulty:diff,chart_level:level});
+  recompute();
+}
+
+function deselectChart(value){
+  if (!selected.has(value)) return;
+  const submit = document.getElementById('songs_submit');
+  const opt = selOpt(value);
+  if (opt) opt.remove();
+  selected.delete(value);
+  recompute();
+}
+
+function renderPicker(){
+  const q = document.getElementById('pick_q').value.trim().toLowerCase();
+  let visible = 0;
+  document.querySelectorAll('.pick-song').forEach(el => {
+    const show = !q || el.dataset.nameLc.includes(q);
+    el.style.display = show ? '' : 'none';
+    if (show) visible++;
+    // 高亮已选难度
+    el.querySelectorAll('.pick-diff').forEach(b => {
+      const on = selected.has(b.dataset.value);
+      b.classList.toggle('on', on);
+    });
+  });
+  const qbox = document.getElementById('pick_q');
+  const hint = document.getElementById('pick_list');
+  hint.previousElementSibling && (hint.previousElementSibling.textContent = '');
+}
+
+function renderSelected(){
+  const pane = document.getElementById('pick_selected');
+  const showJk = document.getElementById('pick_show_jacket').checked;
+  const items = Array.from(selected.entries()).sort(
+    (a,b)=> a[1].song_name.localeCompare(b[1].song_name) || DIFF_ORDER[a[1].difficulty]-DIFF_ORDER[b[1].difficulty]);
+  if (items.length === 0){
+    pane.style.display = 'none';
+    document.getElementById('pick_empty').style.display = '';
+  } else {
+    pane.style.display = '';
+    document.getElementById('pick_empty').style.display = 'none';
+  }
+  pane.innerHTML = items.map(([value, info]) => {
+    const url = showJk ? (JACKETS[info.song_name] || '') : '';
+    return `<div class="sel-card">
+      ${url ? `<div class="sel-card-jk" style="background-image:url('${url}')"></div>` : ''}
+      <div class="sel-card-info">
+        <div class="sel-card-name">${info.song_name}</div>
+        <div class="sel-card-meta">${info.difficulty} · Lv.${Number(info.chart_level).toFixed(1)}</div>
+      </div>
+      <button type="button" class="sel-card-x" data-value="${value}" title="移除">×</button>
+    </div>`;
+  }).join('');
+  document.getElementById('pick_count').textContent = `（已选 ${items.length}）`;
+  pane.querySelectorAll('.sel-card-x').forEach(b => {
+    b.addEventListener('click', () => deselectChart(unescapeCS(b.dataset.value)));
+  });
+}
+
+// 因为 CSS.escape 会转义，用唯一键反查：value 本身不含危险字符（数字:难度），直接用它
+function unescapeCS(v){ return v; }
+
+function recompute(){ renderPicker(); renderSelected(); }
+
+/* —— form 联动 —— */
+const typeSel = document.getElementById('contest_type');
+const topN = document.getElementById('top_n_row');
+const songsRow = document.getElementById('songs_row');
+function sync() {
+  const free = typeSel.value === 'free_choice';
+  topN.style.display = free ? '' : 'none';
+  songsRow.style.display = free ? 'none' : '';
+  topN.querySelector('input').disabled = !free;
+}
+typeSel.addEventListener('change', sync);
+sync();
+
+/* 清除已选 */
+document.getElementById('clear_all').addEventListener('click', () => {
+  selected.clear();
+  document.getElementById('songs_submit').innerHTML = '';
+  recompute();
+});
+
+/* 初始化：难度按钮点击加入 */
+document.querySelectorAll('.pick-diff').forEach(b => {
+  b.addEventListener('click', () => {
+    const on = selected.has(b.dataset.value);
+    if (on) deselectChart(b.dataset.value); else selectChart(b.dataset.value, b.dataset.song, b.dataset.diff, parseFloat(b.dataset.level));
+  });
+});
+document.getElementById('pick_show_jacket').addEventListener('change', () => renderSelected());
+recompute();
+</script>
+{% endblock %}

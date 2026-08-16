@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}审核 #{{ sub.id }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>审核提交 #{{ sub.id }}：{{ contest.name }}</h1>
+<p class="muted">
+  选手 {{ sub.user.display_name }} · {{ "OCR" if sub.source == "ocr" else "手动" }} ·
+  状态：{% if sub.status == "pending" %}待审核{% elif sub.status == "approved" %}已通过{% else %}已驳回{% endif %}
+</p>
+<div class="grid2">
+  <div>
+    {% if sub.image_path %}
+      <img class="preview" src="{{ sub.image_path }}" alt="结算截图">
+    {% else %}
+      <p class="muted">该提交无截图（手动录入）。</p>
+    {% endif %}
+    <p class="muted">当前 RKS：{{ "%.6f"|format(sub.rks) }}</p>
+  </div>
+  <form method="post" action="/review/{{ sub.id }}" class="card stack">
+    <label>曲目 / 难度
+      <select name="song_ref" required>
+        {% for opt in options %}
+          <option value="{{ opt.value if opt.value is defined else opt.id }}" {% if selected == (opt.value if opt.value is defined else opt.id) %}selected{% endif %}>{{ opt.label }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <div class="row">
+      <label>ACC % <input type="text" name="accuracy" value="{{ sub.accuracy }}" required></label>
+      <label>分数（可选） <input type="text" name="score" value="{{ sub.score if sub.score is not none else '' }}"></label>
+    </div>
+    <div class="row">
+      <label>Perfect <input type="number" name="perfect" value="{{ sub.perfect if sub.perfect is not none else '' }}"></label>
+      <label>Good <input type="number" name="good" value="{{ sub.good if sub.good is not none else '' }}"></label>
+    </div>
+    <div class="row">
+      <label>Bad <input type="number" name="bad" value="{{ sub.bad if sub.bad is not none else '' }}"></label>
+      <label>Miss <input type="number" name="miss" value="{{ sub.miss if sub.miss is not none else '' }}"></label>
+    </div>
+    <div class="row">
+      <label>Max Combo <input type="number" name="max_combo" value="{{ sub.max_combo if sub.max_combo is not none else '' }}"></label>
+      <label>评级 <input type="text" name="rank" value="{{ sub.rank if sub.rank is not none else '' }}"></label>
+    </div>
+    <label>审核意见 <textarea name="note" rows="2">{{ sub.review_note or "" }}</textarea></label>
+    <div class="row">
+      <label><input type="radio" name="action" value="approved" {% if sub.status != "rejected" %}checked{% endif %}> 通过（计入榜单）</label>
+      <label><input type="radio" name="action" value="rejected" {% if sub.status == "rejected" %}checked{% endif %}> 驳回</label>
+    </div>
+    <div class="actions">
+      <button type="submit">保存并提交审核</button>
+      <a class="btn muted" href="/contests/{{ contest.id }}/review?status=pending">返回列表</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

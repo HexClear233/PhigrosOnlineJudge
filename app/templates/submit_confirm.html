@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}核对识别结果 - {{ contest.name }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>确认成绩：{{ contest.name }}</h1>
+
+{% if error %}<div class="alert alert-error">{{ error }}</div>{% endif %}
+
+<div class="grid2">
+  <section>
+    <img class="preview" src="{{ preview_url }}" alt="结算截图">
+    {% if parsed.warnings %}
+      <p class="muted">识别告警：{{ "；".join(parsed.warnings) }}</p>
+    {% endif %}
+  </section>
+
+  <section class="card stack">
+    <p class="muted">以下为由截图自动识别的有效成绩元素，仅供核对，无法修改：</p>
+    <table class="table">
+      <tbody>
+        <tr><th>曲名</th>
+            <td>{{ parsed.song_name or "未识别" }}
+                {% if parsed.song_name_raw and parsed.song_name_raw != parsed.song_name %}<small class="muted">（原始 {{ parsed.song_name_raw }}）</small>{% endif %}
+            </td></tr>
+        <tr><th>难度</th><td>{{ parsed.difficulty or "未识别" }}</td></tr>
+        <tr><th>谱面定数</th>
+            <td>{% set cl = chart_level_display if chart_level_display is not none else parsed.chart_level %}
+                {{ "%.1f"|format(cl) if cl is not none else "未识别" }}</td></tr>
+        <tr><th>ACC</th><td>{{ "%.2f"|format(parsed.accuracy) if parsed.accuracy is not none else "未识别" }}%</td></tr>
+        <tr><th>计算 RKS</th><td>{{ "%.4f"|format(parsed.rks) if parsed.rks is not none else "无法计算" }}</td></tr>
+      </tbody>
+    </table>
+
+    {% if off_topic %}
+      <div class="alert alert-error">
+        <b>警告：该曲目不属于本场课题曲。</b>
+        识别到「{{ parsed.song_name or "未识别" }}{% if parsed.difficulty %}（{{ parsed.difficulty }}）{% endif %}」，
+        但本场课题曲仅为：{{ topic_song_names|join("、") if topic_song_names else "（未配置）" }}。
+        如需提交，请通过下方「申诉」进入审核队列，由管理员确认是否收录。
+      </div>
+    {% endif %}
+
+    <div class="actions" style="flex-direction:column; align-items:stretch;">
+      <form method="post" action="/contests/{{ contest.id }}/submit/ocr/confirm">
+        <input type="hidden" name="image_hash" value="{{ image_hash }}">
+        <input type="hidden" name="action" value="confirm">
+        <button type="submit" {% if not matched_ok %}disabled{% endif %} style="width:100%;{% if not matched_ok %}opacity:.45;cursor:not-allowed;{% endif %}">✓ 确认无误，直接登入榜单</button>
+      </form>
+      {% if not matched_ok %}
+        <p class="hint" style="margin:6px 0;">
+          {% if off_topic %}不属于本场课题曲，暂不能直接入榜。{% else %}未自动匹配到本赛事有效的曲目/难度，暂不能直接入榜。{% endif %}
+        </p>
+      {% else %}
+        <p class="hint" style="margin:6px 0;">提交后成绩将直接计入排行榜。</p>
+      {% endif %}
+
+      <form method="post" action="/contests/{{ contest.id }}/submit/ocr/confirm">
+        <input type="hidden" name="image_hash" value="{{ image_hash }}">
+        <input type="hidden" name="action" value="review">
+        <button type="submit" class="btn" style="width:100%; background:#8a6d00;">{% if off_topic %}⇪ 申诉：提交到审核队列{% else %}⚠ 识别有误，提交到审核队列{% endif %}</button>
+      </form>
+      <p class="muted" style="margin:4px 0;">申诉/提交后由管理员/组织者人工核对，确认是否计入榜单。</p>
+    </div>
+
+    <a class="btn muted" href="/contests/{{ contest.id }}/submit">返回重新上传</a>
+  </section>
+</div>
+{% endblock %}

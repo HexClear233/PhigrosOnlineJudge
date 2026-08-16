@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}赛事列表 - Phigros OJ{% endblock %}
+{% block content %}
+<h1>赛事列表</h1>
+{% if contests %}
+<div class="table-wrap">
+<table class="table">
+  <thead>
+    <tr><th>赛事</th><th>类型</th><th>版本</th><th>时间</th><th>状态</th><th></th></tr>
+  </thead>
+  <tbody>
+    {% for c in contests %}
+    <tr>
+      <td><a href="/contests/{{ c.id }}">{{ c.name }}</a></td>
+      <td>{{ "自选曲" if c.contest_type == "free_choice" else "课题曲" }}{% if c.contest_type == "free_choice" and c.top_n %} · Top {{ c.top_n }}{% endif %}</td>
+      <td>{{ c.version or "—" }}</td>
+      <td>{{ c.start_time.strftime("%m-%d %H:%M") }} ~ {{ c.end_time.strftime("%m-%d %H:%M") }}</td>
+      <td>
+        {% if c.is_sealed %}
+          <span class="badge badge-pending">已封榜</span>
+        {% elif c.is_open %}
+          <span class="badge badge-ok">进行中</span>
+        {% elif c.start_time > now %}
+          <span class="muted">未开始</span>
+        {% else %}
+          <span class="muted">已结束</span>
+        {% endif %}
+      </td>
+      <td>
+        <a href="/contests/{{ c.id }}/leaderboard">榜单</a>
+        {% if user and c.is_open %}<a href="/contests/{{ c.id }}/submit">提交</a>{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<div class="card"><p>暂无赛事。{% if user and user.is_admin %}<a href="/contests/new">创建第一个赛事</a>{% endif %}</p></div>
+{% endif %}
+{% endblock %}

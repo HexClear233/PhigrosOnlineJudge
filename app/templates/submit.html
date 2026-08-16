@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}提交成绩 - {{ contest.name }} - Phigros OJ{% endblock %}
+{% block content %}
+<h1>提交成绩：{{ contest.name }}</h1>
+
+<div class="grid2">
+  <section class="card">
+    <h2>OCR 自动识别</h2>
+    <p class="muted">上传结算截图，自动提取曲目与成绩，确认后提交。</p>
+    <form method="post" action="/contests/{{ contest.id }}/submit/ocr" enctype="multipart/form-data">
+      <label>结算截图 <input type="file" name="file" accept="image/*" required></label>
+      <button type="submit">上传并识别</button>
+    </form>
+  </section>
+
+  {% if is_staff %}
+  <section class="card">
+    <h2>手动录入（工作人员）</h2>
+    <form method="post" action="/contests/{{ contest.id }}/submit/manual" class="stack">
+      <label>
+        <span>曲目</span>
+        <input type="text" id="manual_song_filter" placeholder="输入曲名过滤…">
+        <span id="manual_song_count" class="muted"></span>
+        <select name="song_ref" id="manual_song" required>
+          {% for opt in song_options %}
+            <option value="{{ opt.value if opt.value is defined else opt.id }}">{{ opt.label }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <div class="row">
+        <label>分数（可选） <input type="text" name="score" placeholder="728875"></label>
+        <label>ACC % <input type="text" name="accuracy" placeholder="80.54" required></label>
+      </div>
+      <div class="row">
+        <label>Perfect <input type="number" name="perfect"></label>
+        <label>Good <input type="number" name="good"></label>
+      </div>
+      <div class="row">
+        <label>Bad <input type="number" name="bad"></label>
+        <label>Miss <input type="number" name="miss"></label>
+      </div>
+      <div class="row">
+        <label>Max Combo <input type="number" name="max_combo"></label>
+        <label>评级 <input type="text" name="rank" placeholder="V/S/A..."></label>
+      </div>
+      <button type="submit">提交</button>
+    </form>
+  </section>
+  {% else %}
+  <section class="card">
+    <h2>手动录入</h2>
+    <p class="muted">仅管理员或赛事组织人员可手动录入成绩；选手请使用左侧 OCR 上传截图提交。</p>
+  </section>
+  {% endif %}
+</div>
+<section class="card" style="margin-top:16px;">
+  <h2>谱面定数表{% if contest.version %}（Phigros v{{ contest.version }}）{% endif %}</h2>
+  <p class="muted">本场比赛可提交的谱面及其定数，可按曲名 / 难度 / 定数区间查询与排序。</p>
+  <div class="row chart-filters">
+    <label>曲名<input type="text" id="cl_q" placeholder="输入曲名关键词…" oninput="renderChartTable()"></label>
+    <label>难度
+      <select id="cl_diff" onchange="renderChartTable()">
+        <option value="">全部</option>
+        <option value="EZ">EZ</option>
+        <option value="HD">HD</option>
+        <option value="IN">IN</option>
+        <option value="AT">AT</option>
+        <option value="SP">SP</option>
+      </select>
+    </label>
+    <label>定数 ≥<input type="number" id="cl_min" step="0.1" min="0" oninput="renderChartTable()"></label>
+    <label>定数 ≤<input type="number" id="cl_max" step="0.1" min="0" oninput="renderChartTable()"></label>
+    <label>排序
+      <select id="cl_sort" onchange="renderChartTable()">
+        <option value="lv_desc">定数 ↓</option>
+        <option value="lv_asc">定数 ↑</option>
+        <option value="name">曲名</option>
+      </select>
+    </label>
+  </div>
+  <div class="table-wrap" style="max-height:360px;overflow:auto;">
+    <table class="table" id="cl_table">
+      <thead><tr><th>曲名</th><th>难度</th><th>谱面定数</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <p class="muted" id="cl_count"></p>
+</section>
+
+<script src="/static/search_select.js"></script>
+<script>attachSongFilter('manual_song_filter', 'manual_song', 'manual_song_count');</script>
+<script>
+const CHART_DATA = {{ chart_table | default([]) | tojson }};
+const CL_DIFF_ORDER = {"EZ":0,"HD":1,"IN":2,"AT":3,"SP":4};
+function normalize_cn(s){ return String(s||'').toLowerCase(); }
+function renderChartTable(){
+  const q = normalize_cn(document.getElementById('cl_q').value);
+  const diff = new Set(document.getElementById('cl_diff').value.split(',').filter(Boolean));
+  const min = parseFloat(document.getElementById('cl_min').value);
+  const max = parseFloat(document.getElementById('cl_max').value);
+  const sort = document.getElementById('cl_sort').value;
+  let rows = CHART_DATA.filter(r => {
+    if (q && !normalize_cn(r.song_name).includes(q)) return false;
+    if (diff.size && !diff.has(r.difficulty)) return false;
+    if (!isNaN(min) && r.chart_level < min) return false;
+    if (!isNaN(max) && r.chart_level > max) return false;
+    return true;
+  });
+  const byLevel = (a,b)=>a.chart_level-b.chart_level || a.song_name.localeCompare(b.song_name) || CL_DIFF_ORDER[a.difficulty]-CL_DIFF_ORDER[b.difficulty];
+  if (sort === 'lv_desc') rows.sort((a,b)=>byLevel(b,a));
+  else if (sort === 'lv_asc') rows.sort(byLevel);
+  else rows.sort((a,b)=>a.song_name.localeCompare(b.song_name) || CL_DIFF_ORDER[a.difficulty]-CL_DIFF_ORDER[b.difficulty]);
+  const tbody = document.querySelector('#cl_table tbody');
+  tbody.innerHTML = rows.map(r =>
+    `<tr><td>${r.song_name}</td><td>${r.difficulty}</td><td class="total">${Number(r.chart_level).toFixed(1)}</td></tr>`
+  ).join('');
+  document.getElementById('cl_count').textContent = `共 ${rows.length} 个谱面`;
+}
+renderChartTable();
+</script>
+{% endblock %}

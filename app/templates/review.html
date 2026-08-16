@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}成绩审核 - Phigros OJ{% endblock %}
+{% block content %}
+<h1>成绩审核{% if contest %}：{{ contest.name }}{% endif %}</h1>
+<nav class="tabs">
+  <a href="{{ '/contests/' ~ contest.id ~ '/review' if contest else '/review' }}?status=pending" class="{{ 'on' if status == 'pending' }}">待审核</a>
+  <a href="{{ '/contests/' ~ contest.id ~ '/review' if contest else '/review' }}?status=approved" class="{{ 'on' if status == 'approved' }}">已通过</a>
+  <a href="{{ '/contests/' ~ contest.id ~ '/review' if contest else '/review' }}?status=rejected" class="{{ 'on' if status == 'rejected' }}">已驳回</a>
+  <a href="{{ '/contests/' ~ contest.id ~ '/review' if contest else '/review' }}?status=withdrawn" class="{{ 'on' if status == 'withdrawn' }}">已撤回</a>
+  <a href="{{ ('/contests/' ~ contest.id ~ '/review' if contest else '/review') }}?status=all" class="{{ 'on' if status == 'all' }}">全部</a>
+</nav>
+{% if subs %}
+<table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      {% if not contest %}<th>赛事</th>{% endif %}
+      <th>选手</th><th>曲目</th><th>难度</th><th>ACC</th><th>RKS</th>
+      <th>来源</th><th>状态</th><th>提交时间</th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in subs %}
+    <tr>
+      <td>{{ s.id }}</td>
+      {% if not contest %}<td><a href="/contests/{{ s.contest_id }}">{{ s.contest_name }}</a></td>{% endif %}
+      <td>{{ s.user }}</td>
+      <td>{{ s.song_name or "—" }}</td>
+      <td>{{ s.difficulty or "—" }}</td>
+      <td>{{ s.accuracy }}{% if s.has_image %} <a href="/review/{{ s.id }}" title="查看截图">🖼</a>{% endif %}</td>
+      <td>{{ "%.4f"|format(s.rks) }}</td>
+      <td>{{ "OCR" if s.source == "ocr" else "手动" }}</td>
+      <td>
+        {% if s.status == "pending" %}<span class="badge badge-pending">待审核</span>
+        {% elif s.status == "approved" %}<span class="badge badge-ok">已通过</span>
+        {% elif s.status == "withdrawn" %}<span class="badge badge-err">已撤回{% if s.withdraw_reason %}（{{ s.withdraw_reason }}）{% endif %}</span>
+        {% else %}<span class="badge badge-err">已驳回</span>{% endif %}
+      </td>
+      <td>{{ s.submitted_at.strftime("%m-%d %H:%M") }}</td>
+      <td><a href="/review/{{ s.id }}">审核</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">当前筛选下暂无提交。</p>
+{% endif %}
+{% endblock %}
